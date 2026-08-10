@@ -1,0 +1,21 @@
+{
+  "name": "mobile-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/mobile-app",
+  "projectType": "application",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node -e \"console.log('mobile-app scaffold ready. Expo init pending approval.')\""
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node -e \"console.log('No lint configured for mobile-app yet')\""
+      }
+    }
+  },
+  "tags": ["scope:mobile", "role:customer"]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "customer-web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/customer-web",
+  "projectType": "application",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "next dev apps/customer-web --webpack -p 3000"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "next build apps/customer-web"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsc --noEmit -p apps/customer-web/tsconfig.json"
+      }
+    }
+  },
+  "tags": ["scope:web", "role:customer"]
+}

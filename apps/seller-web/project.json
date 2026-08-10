@@ -1,0 +1,27 @@
+{
+  "name": "seller-web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/seller-web",
+  "projectType": "application",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "next dev apps/seller-web --webpack -p 3001"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "next build apps/seller-web"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsc --noEmit -p apps/seller-web/tsconfig.json"
+      }
+    }
+  },
+  "tags": ["scope:web", "role:seller"]
+}

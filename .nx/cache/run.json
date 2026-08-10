@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run auth-service:test",
+    "startTime": "2026-08-10T08:52:51.460Z",
+    "endTime": "2026-08-10T08:52:53.982Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "auth-service:test",
+      "target": "test",
+      "projectName": "auth-service",
+      "hash": "12567547544049407686",
+      "startTime": "2026-08-10T08:52:51.511Z",
+      "endTime": "2026-08-10T08:52:53.890Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

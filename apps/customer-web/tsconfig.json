@@ -1,0 +1,37 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }],
+    "paths": {
+      "@nasi/ui": ["../../packages/ui/src/index.ts"],
+      "@nasi/ui/*": ["../../packages/ui/src/*"],
+      "@nasi/theme": ["../../packages/theme/src/index.ts"],
+      "@nasi/theme/*": ["../../packages/theme/src/*"],
+      "@nasi/hooks": ["../../packages/hooks/src/index.ts"],
+      "@nasi/hooks/*": ["../../packages/hooks/src/*"],
+      "@nasi/api-sdk": ["../../packages/api-sdk/src/index.ts"],
+      "@nasi/api-sdk/*": ["../../packages/api-sdk/src/*"],
+      "@nasi/validation": ["../../packages/validation/src/index.ts"],
+      "@nasi/validation/*": ["../../packages/validation/src/*"],
+      "@nasi/utils": ["../../packages/utils/src/index.ts"],
+      "@nasi/utils/*": ["../../packages/utils/src/*"],
+      "@nasi/constants": ["../../packages/constants/src/index.ts"],
+      "@nasi/constants/*": ["../../packages/constants/src/*"],
+      "@nasi/types": ["../../packages/types/src/index.d.ts"],
+      "@nasi/types/*": ["../../packages/types/src/*"],
+      "@admin-web/*": ["../admin-web/*"],
+      "@client-web/*": ["../client-web/*"],
+      "@seller-web/*": ["../seller-web/*"],
+      "@/*": ["./*", "../client-web/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "../../packages/types/src/index.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}

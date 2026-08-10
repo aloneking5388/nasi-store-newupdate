@@ -1,0 +1,2 @@
+[2m> [22mtsc --noEmit -p apps/client-web/tsconfig.json
+

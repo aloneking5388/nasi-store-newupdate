@@ -1,0 +1,2 @@
+[2m> [22mnode --check services/api-gateway/server.js
+

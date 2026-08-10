@@ -1,0 +1,27 @@
+{
+  "name": "admin-web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/admin-web",
+  "projectType": "application",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "next dev apps/admin-web --webpack -p 3002"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "next build apps/admin-web"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsc --noEmit -p apps/admin-web/tsconfig.json"
+      }
+    }
+  },
+  "tags": ["scope:web", "role:admin"]
+}

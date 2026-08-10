@@ -1,0 +1,29 @@
+{
+  "name": "user-service",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "services/user-service/src",
+  "projectType": "application",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node services/user-service/src/index.js"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node --check services/user-service/src/index.js"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node -e \"console.log('No tests configured for user-service yet')\""
+      }
+    }
+  },
+  "tags": ["scope:service"]
+}
+
+

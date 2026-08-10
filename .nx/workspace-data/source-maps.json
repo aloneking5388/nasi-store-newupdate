@@ -1,0 +1,3220 @@
+{
+  "apps/admin-web": {
+    "root": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.inputs.0": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.1": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.executor": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:web": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.role:admin": [
+      "apps/admin-web/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/client-web": {
+    "root": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.inputs.0": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.1": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.executor": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:web": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.role:customer": [
+      "apps/client-web/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/customer-web": {
+    "root": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.inputs.0": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.1": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.executor": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:web": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.role:customer": [
+      "apps/customer-web/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/mobile-app": {
+    "root": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:mobile": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.role:customer": [
+      "apps/mobile-app/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/seller-web": {
+    "root": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.inputs.0": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs.1": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json#targetDefaults.build",
+      "nx/target-defaults"
+    ],
+    "targets.build.executor": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:web": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.role:seller": [
+      "apps/seller-web/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/ai-service": {
+    "root": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/ai-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/analytics-service": {
+    "root": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/analytics-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/api-gateway": {
+    "root": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/api-gateway/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/auth-service": {
+    "root": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/auth-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/cart-service": {
+    "root": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/cart-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/category-service": {
+    "root": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/category-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/chat-service": {
+    "root": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/chat-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/coupon-service": {
+    "root": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/coupon-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/currency-service": {
+    "root": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/currency-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/inventory-service": {
+    "root": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/inventory-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/notification-service": {
+    "root": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/notification-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/order-service": {
+    "root": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/order-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/payment-service": {
+    "root": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/payment-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/product-service": {
+    "root": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/product-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/review-service": {
+    "root": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/review-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/search-service": {
+    "root": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/search-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/seller-service": {
+    "root": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/seller-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/shipping-service": {
+    "root": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/shipping-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/upload-service": {
+    "root": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/upload-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/user-service": {
+    "root": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/user-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/wallet-service": {
+    "root": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/wallet-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/wishlist-service": {
+    "root": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.cache": [
+      "nx.json#targetDefaults.dev",
+      "nx/target-defaults"
+    ],
+    "targets.dev.executor": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.inputs.0": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs.1": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json#targetDefaults.lint",
+      "nx/target-defaults"
+    ],
+    "targets.lint.executor": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:service": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "services/wishlist-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/api-sdk": {
+    "root": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/api-sdk/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/constants": {
+    "root": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/constants/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/hooks": {
+    "root": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/hooks/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/theme": {
+    "root": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/theme/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/types": {
+    "root": [
+      "packages/types/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/types/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "packages/types/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/types/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/types/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/ui": {
+    "root": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/ui/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/utils": {
+    "root": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/utils/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/validation": {
+    "root": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/validation/package.json",
+      "nx/core/package-json"
+    ]
+  }
+}

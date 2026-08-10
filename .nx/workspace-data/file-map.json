@@ -1,0 +1,3055 @@
+{
+  "version": "6.0",
+  "nxVersion": "23.1.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "tmp/static/styles.js",
+        "hash": "7917573861220374825"
+      },
+      {
+        "file": "docs/contracts/customer-registration-delegation-design.md",
+        "hash": "718970551070771275"
+      },
+      {
+        "file": "docs/phase-1-step-2-classification-prompt.md",
+        "hash": "5009502939195771303"
+      },
+      {
+        "file": "tmp/static/environment.js",
+        "hash": "5369266582780471127"
+      },
+      {
+        "file": "docs/contracts/auth-extraction-boundary.md",
+        "hash": "11636419665893492992"
+      },
+      {
+        "file": "docs/contracts/customer-registration-ownership.md",
+        "hash": "15647856317537185994"
+      },
+      {
+        "file": "tmp/dep-graph.json",
+        "hash": "14727988010358817406"
+      },
+      {
+        "file": "server.js",
+        "hash": "15621944513865525785"
+      },
+      {
+        "file": "AGENTS.md",
+        "hash": "7772352574092436206"
+      },
+      {
+        "file": "infra/docker/README.md",
+        "hash": "6957145253980179986"
+      },
+      {
+        "file": "tooling/tsconfig/README.md",
+        "hash": "12130402391763962305"
+      },
+      {
+        "file": "tmp/static/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "classification-output.json",
+        "hash": "2811644511254555354"
+      },
+      {
+        "file": "infra/scripts/README.md",
+        "hash": "3887463190466698000"
+      },
+      {
+        "file": "package.json",
+        "hash": "1559045294300250003"
+      },
+      {
+        "file": "docs/contracts/auth-smoke-tests.md",
+        "hash": "16997525747527090658"
+      },
+      {
+        "file": "tooling/eslint-config/README.md",
+        "hash": "7403644068128097180"
+      },
+      {
+        "file": "docs/phase-1-step-4-backend-service-grouping-prompt.md",
+        "hash": "11236134804717616022"
+      },
+      {
+        "file": "docs/completion-evidence-checklist.md",
+        "hash": "15034168969650722384"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3377529041528991192"
+      },
+      {
+        "file": "docs/phase-1-step-3-duplicate-shared-surface-prompt.md",
+        "hash": "8253677680400242449"
+      },
+      {
+        "file": "docs/contracts/customer-register-extraction-boundary.md",
+        "hash": "1147457839376031439"
+      },
+      {
+        "file": "tooling/prettier-config/prettier.config.cjs",
+        "hash": "8531764174992420294"
+      },
+      {
+        "file": "docs/phase-1-step-1-discovery-prompt.md",
+        "hash": "11989393460982852238"
+      },
+      {
+        "file": "docs/task-1-backend-auth-architecture-analysis.md",
+        "hash": "5758648163753771101"
+      },
+      {
+        "file": "docs/README.md",
+        "hash": "7575361178782158023"
+      },
+      {
+        "file": "docs/migration/customer-registration-implementation-plan.md",
+        "hash": "5950299905971505022"
+      },
+      {
+        "file": "nx.json",
+        "hash": "11996594637276870670"
+      },
+      {
+        "file": "tmp/static/runtime.js",
+        "hash": "14980783667260047515"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "12734532417498165783"
+      },
+      {
+        "file": "docs/contracts/auth-contract.md",
+        "hash": "16158920039859443754"
+      },
+      {
+        "file": "docs/contracts/customer-login-extraction-boundary.md",
+        "hash": "9474901567307656474"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3111782556843464830"
+      },
+      {
+        "file": "tmp/static/main.js",
+        "hash": "14500634277701145878"
+      },
+      {
+        "file": "docs/migration/customer-login-implementation-plan.md",
+        "hash": "15413855705396607074"
+      },
+      {
+        "file": "docs/migration/auth-extraction-log.md",
+        "hash": "15627636181658577158"
+      },
+      {
+        "file": "docs/phase-1-step-5-dependency-and-coupling-risk-prompt.md",
+        "hash": "15854242374126353675"
+      },
+      {
+        "file": "infra/nginx/README.md",
+        "hash": "12191807404288512612"
+      },
+      {
+        "file": "tmp/static/styles.css",
+        "hash": "17891475750148883061"
+      },
+      {
+        "file": "tmp/dep-graph.html",
+        "hash": "6986935609089304540"
+      }
+    ],
+    "projectFileMap": {
+      "@nasi/theme": [
+        {
+          "file": "packages/theme/package.json",
+          "hash": "943765198530121122"
+        },
+        {
+          "file": "packages/theme/src/index.ts",
+          "hash": "1969368914539341161"
+        }
+      ],
+      "customer-web": [
+        {
+          "file": "apps/customer-web/app/(store)/about-delivery/page.tsx",
+          "hash": "10927147238901872978"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/about-group/page.tsx",
+          "hash": "4503499945965555177"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/about-shops/page.tsx",
+          "hash": "6821074864332997704"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/about/page.tsx",
+          "hash": "3973085989931108077"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/blog/[slug]/page.tsx",
+          "hash": "2661000073686296661"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/blog/page.tsx",
+          "hash": "15688475617855641809"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/cart/page.tsx",
+          "hash": "4347266956063769837"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/contact/page.tsx",
+          "hash": "16871331479057562936"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/dashboard/chat/[sellerId]/page.tsx",
+          "hash": "4904249233688107646"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/dashboard/chat/page.tsx",
+          "hash": "169434442145983390"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/dashboard/layout.tsx",
+          "hash": "12395896135722987613"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/dashboard/orders/[orderId]/page.tsx",
+          "hash": "13168912396401272903"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/dashboard/orders/page.tsx",
+          "hash": "1551142657727869092"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/dashboard/page.tsx",
+          "hash": "3690968585212647647"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/dashboard/profileSetting/page.tsx",
+          "hash": "10267023608193952032"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/dashboard/wallet/[id]/page.tsx",
+          "hash": "8096707728335001587"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/dashboard/wallet/page.tsx",
+          "hash": "10010468157487487329"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/dashboard/wishlist/page.tsx",
+          "hash": "7405962384529583310"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/deliverypolicy/page.tsx",
+          "hash": "2180772831367808663"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/layout.tsx",
+          "hash": "11648653446873112677"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/login/page.tsx",
+          "hash": "347838263709045841"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/orderConfirm/page.tsx",
+          "hash": "11454760778920190829"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/page.tsx",
+          "hash": "12456157451446369343"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/payment/page.tsx",
+          "hash": "17977391671503092751"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/pending-account/page.tsx",
+          "hash": "8277110458809326925"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/privacypolicy/page.tsx",
+          "hash": "17494161863933115457"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/products/[slug]/page.tsx",
+          "hash": "14744730116170671014"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/products/page.tsx",
+          "hash": "2795489834500944915"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/products/search/page.tsx",
+          "hash": "7230094197133333560"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/register/page.tsx",
+          "hash": "8993733396688902470"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/returnpolicy/page.tsx",
+          "hash": "5440504689085417628"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/shipping/page.tsx",
+          "hash": "14327028770229473872"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/shop/page.tsx",
+          "hash": "6890126653504968332"
+        },
+        {
+          "file": "apps/customer-web/app/(store)/unsubscribe/page.tsx",
+          "hash": "6577825600641693987"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/Banner.tsx",
+          "hash": "9310935086056308709"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/Cart.tsx",
+          "hash": "9311361730478922374"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/Categorys.tsx",
+          "hash": "984009822859011084"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/DashboardNavbar.tsx",
+          "hash": "16794214123684478440"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/DashboardStats.tsx",
+          "hash": "15513093818414191641"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/DynamicProductList.tsx",
+          "hash": "18365564471118190455"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/FeatureProducts.tsx",
+          "hash": "11768508037588544925"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/Footer.tsx",
+          "hash": "9838816163298776247"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/FromShop.tsx",
+          "hash": "5700592173518279184"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/Header.tsx",
+          "hash": "4884673495274398720"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/HomeDataHydrator.tsx",
+          "hash": "9243295979849261131"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/LiveChatPanel.tsx",
+          "hash": "15501944978702140697"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/MobileSidebar.tsx",
+          "hash": "16391053648075455831"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/OAuthButtons.tsx",
+          "hash": "16864123064938999758"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/OfferSlider.tsx",
+          "hash": "6284515383141618498"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/Product.tsx",
+          "hash": "10775997777110521317"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/ProductDetail.tsx",
+          "hash": "1755056716791649664"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/Products.tsx",
+          "hash": "3703856882836258625"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/RelatedProduct.tsx",
+          "hash": "2955681185005708662"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/Retings.tsx",
+          "hash": "217280502818703930"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/Reviews.tsx",
+          "hash": "12057658948607278503"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/SearchPro.tsx",
+          "hash": "1269832204181163364"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/ShippingCart.tsx",
+          "hash": "7090494652330588121"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/ShippingForm.tsx",
+          "hash": "18031928085777688969"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/SideFillter.tsx",
+          "hash": "11807966995830368533"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/TopHeader.tsx",
+          "hash": "14531401097963787081"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/UniversalShareButtons.tsx",
+          "hash": "15389704235079697276"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/UserProfile.tsx",
+          "hash": "17217601376236208020"
+        },
+        {
+          "file": "apps/customer-web/components/StoreComponents/Wallet.tsx",
+          "hash": "7351616399275719165"
+        },
+        {
+          "file": "apps/customer-web/next.config.ts",
+          "hash": "17777597417991647135"
+        },
+        {
+          "file": "apps/customer-web/postcss.config.mjs",
+          "hash": "512361679910886401"
+        },
+        {
+          "file": "apps/customer-web/project.json",
+          "hash": "15993095044666723635"
+        },
+        {
+          "file": "apps/customer-web/tsconfig.json",
+          "hash": "11675970760861507256"
+        }
+      ],
+      "search-service": [
+        {
+          "file": "services/search-service/README.md",
+          "hash": "14843760826966895777"
+        },
+        {
+          "file": "services/search-service/project.json",
+          "hash": "6925771450320001483"
+        },
+        {
+          "file": "services/search-service/src/index.js",
+          "hash": "19040157579571390"
+        }
+      ],
+      "order-service": [
+        {
+          "file": "services/order-service/README.md",
+          "hash": "8420648979910338479"
+        },
+        {
+          "file": "services/order-service/project.json",
+          "hash": "10421182359179375794"
+        },
+        {
+          "file": "services/order-service/src/index.js",
+          "hash": "6037013285491909956"
+        }
+      ],
+      "currency-service": [
+        {
+          "file": "services/currency-service/README.md",
+          "hash": "610477786785962417"
+        },
+        {
+          "file": "services/currency-service/project.json",
+          "hash": "16869729615455562030"
+        },
+        {
+          "file": "services/currency-service/src/index.js",
+          "hash": "17176944888419792206"
+        }
+      ],
+      "review-service": [
+        {
+          "file": "services/review-service/README.md",
+          "hash": "5828013583329662215"
+        },
+        {
+          "file": "services/review-service/project.json",
+          "hash": "11094980877761458281"
+        },
+        {
+          "file": "services/review-service/src/index.js",
+          "hash": "10278375979166538316"
+        }
+      ],
+      "@nasi/hooks": [
+        {
+          "file": "packages/hooks/package.json",
+          "hash": "1469449981587872470"
+        },
+        {
+          "file": "packages/hooks/src/currency.tsx",
+          "hash": "3578498569170516868"
+        },
+        {
+          "file": "packages/hooks/src/index.ts",
+          "hash": "3567081711346501771"
+        }
+      ],
+      "api-gateway": [
+        {
+          "file": "services/api-gateway/README.md",
+          "hash": "16949652813278345072"
+        },
+        {
+          "file": "services/api-gateway/project.json",
+          "hash": "1089178835326439494"
+        },
+        {
+          "file": "services/api-gateway/server.js",
+          "hash": "3681760253085765166"
+        },
+        {
+          "file": "services/api-gateway/src/index.js",
+          "hash": "16748634420858278807"
+        }
+      ],
+      "chat-service": [
+        {
+          "file": "services/chat-service/README.md",
+          "hash": "16253368425408558592"
+        },
+        {
+          "file": "services/chat-service/project.json",
+          "hash": "17430620179031169890"
+        },
+        {
+          "file": "services/chat-service/src/index.js",
+          "hash": "2957860081984584296"
+        }
+      ],
+      "payment-service": [
+        {
+          "file": "services/payment-service/README.md",
+          "hash": "12916896359414980978"
+        },
+        {
+          "file": "services/payment-service/project.json",
+          "hash": "8256753221378311974"
+        },
+        {
+          "file": "services/payment-service/src/index.js",
+          "hash": "15067812105522785354"
+        }
+      ],
+      "upload-service": [
+        {
+          "file": "services/upload-service/README.md",
+          "hash": "16572582861490433150"
+        },
+        {
+          "file": "services/upload-service/project.json",
+          "hash": "13537015944365324770"
+        },
+        {
+          "file": "services/upload-service/src/index.js",
+          "hash": "16791877264542492304"
+        }
+      ],
+      "wallet-service": [
+        {
+          "file": "services/wallet-service/README.md",
+          "hash": "14922579224771611585"
+        },
+        {
+          "file": "services/wallet-service/project.json",
+          "hash": "5351973439925454371"
+        },
+        {
+          "file": "services/wallet-service/src/index.js",
+          "hash": "14901066879683226209"
+        }
+      ],
+      "@nasi/types": [
+        {
+          "file": "packages/types/package.json",
+          "hash": "12119808527637544815"
+        },
+        {
+          "file": "packages/types/src/admin.d.ts",
+          "hash": "9328144906691340013"
+        },
+        {
+          "file": "packages/types/src/auth.d.ts",
+          "hash": "10182224711820769985"
+        },
+        {
+          "file": "packages/types/src/banner.d.ts",
+          "hash": "12826093628870609885"
+        },
+        {
+          "file": "packages/types/src/cart.d.ts",
+          "hash": "3712563960505178965"
+        },
+        {
+          "file": "packages/types/src/categoris.d.ts",
+          "hash": "1145695819661609577"
+        },
+        {
+          "file": "packages/types/src/dashboard.d.ts",
+          "hash": "1114148245400122505"
+        },
+        {
+          "file": "packages/types/src/home.d.ts",
+          "hash": "14657611549142393638"
+        },
+        {
+          "file": "packages/types/src/homeDashboard.d.ts",
+          "hash": "10735354757201166539"
+        },
+        {
+          "file": "packages/types/src/index.d.ts",
+          "hash": "1235725701276430455"
+        },
+        {
+          "file": "packages/types/src/newsletter.d.ts",
+          "hash": "6324679255932727914"
+        },
+        {
+          "file": "packages/types/src/order.d.ts",
+          "hash": "8230594872046689200"
+        },
+        {
+          "file": "packages/types/src/product.d.ts",
+          "hash": "4813541333015444671"
+        },
+        {
+          "file": "packages/types/src/review.d.ts",
+          "hash": "16968254823792621126"
+        },
+        {
+          "file": "packages/types/src/socket.d.ts",
+          "hash": "9019103907396043637"
+        },
+        {
+          "file": "packages/types/src/swiper.d.ts",
+          "hash": "8198774864672487188"
+        },
+        {
+          "file": "packages/types/src/wallet.d.ts",
+          "hash": "9280802233203542955"
+        }
+      ],
+      "client-web": [
+        {
+          "file": "apps/client-web/.next/dev/build-manifest.json",
+          "hash": "11279735015644798282"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/.rscinfo",
+          "hash": "10346854471429558215"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/next-devtools-config.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/client-development/0.pack.gz",
+          "hash": "12754305540236462647"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/client-development/1.pack.gz",
+          "hash": "2083550901192558528"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/client-development/2.pack.gz",
+          "hash": "12856902028422375406"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/client-development/3.pack.gz",
+          "hash": "9959047299315491295"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/client-development/4.pack.gz",
+          "hash": "6856080609951755729"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/client-development/5.pack.gz",
+          "hash": "6262223762401106303"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/client-development/index.pack.gz",
+          "hash": "11599892790998287187"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/client-development/index.pack.gz.old",
+          "hash": "18049095829873496368"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/0.pack.gz",
+          "hash": "1386144384457556307"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/1.pack.gz",
+          "hash": "12113401059622904050"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/2.pack.gz",
+          "hash": "15803322004032312094"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/3.pack.gz",
+          "hash": "13745891047205275144"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/4.pack.gz",
+          "hash": "11254385307063537011"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/5.pack.gz",
+          "hash": "7916906140427345209"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/6.pack.gz",
+          "hash": "7205416332202634360"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/7.pack.gz",
+          "hash": "8777873875296713155"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/8.pack.gz",
+          "hash": "17508417872985731616"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/9.pack.gz",
+          "hash": "12526439508948323311"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/index.pack.gz",
+          "hash": "1471344327433264650"
+        },
+        {
+          "file": "apps/client-web/.next/dev/cache/webpack/server-development/index.pack.gz.old",
+          "hash": "18108141564056597345"
+        },
+        {
+          "file": "apps/client-web/.next/dev/package.json",
+          "hash": "11338307439248427064"
+        },
+        {
+          "file": "apps/client-web/.next/dev/prerender-manifest.json",
+          "hash": "4995943291980517325"
+        },
+        {
+          "file": "apps/client-web/.next/dev/react-loadable-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/client-web/.next/dev/routes-manifest.json",
+          "hash": "8631896564026539507"
+        },
+        {
+          "file": "apps/client-web/.next/dev/server/app-paths-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/client-web/.next/dev/server/interception-route-rewrite-manifest.js",
+          "hash": "10484309360224763022"
+        },
+        {
+          "file": "apps/client-web/.next/dev/server/middleware-build-manifest.js",
+          "hash": "2151161900599725110"
+        },
+        {
+          "file": "apps/client-web/.next/dev/server/middleware-manifest.json",
+          "hash": "9889576824779923310"
+        },
+        {
+          "file": "apps/client-web/.next/dev/server/middleware-react-loadable-manifest.js",
+          "hash": "9185069726031651908"
+        },
+        {
+          "file": "apps/client-web/.next/dev/server/next-font-manifest.js",
+          "hash": "16541577805185552134"
+        },
+        {
+          "file": "apps/client-web/.next/dev/server/next-font-manifest.json",
+          "hash": "11891788324563068681"
+        },
+        {
+          "file": "apps/client-web/.next/dev/server/pages-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/client-web/.next/dev/server/server-reference-manifest.js",
+          "hash": "13062913855343812063"
+        },
+        {
+          "file": "apps/client-web/.next/dev/server/server-reference-manifest.json",
+          "hash": "10677758001107191297"
+        },
+        {
+          "file": "apps/client-web/.next/dev/static/chunks/polyfills.js",
+          "hash": "8152964857117933876"
+        },
+        {
+          "file": "apps/client-web/.next/dev/static/development/_buildManifest.js",
+          "hash": "13063724784290855366"
+        },
+        {
+          "file": "apps/client-web/.next/dev/static/development/_ssgManifest.js",
+          "hash": "17018243955171961484"
+        },
+        {
+          "file": "apps/client-web/.next/dev/trace",
+          "hash": "5749337649840472338"
+        },
+        {
+          "file": "apps/client-web/.next/dev/types/cache-life.d.ts",
+          "hash": "9184345898968772493"
+        },
+        {
+          "file": "apps/client-web/.next/dev/types/package.json",
+          "hash": "6094546126370684104"
+        },
+        {
+          "file": "apps/client-web/.next/dev/types/routes.d.ts",
+          "hash": "10538667371017548709"
+        },
+        {
+          "file": "apps/client-web/.next/dev/types/validator.ts",
+          "hash": "15468579078734689422"
+        },
+        {
+          "file": "apps/client-web/README.md",
+          "hash": "8324130287701028964"
+        },
+        {
+          "file": "apps/client-web/app/(auth)/admin/login/page.tsx",
+          "hash": "3854573952898710776"
+        },
+        {
+          "file": "apps/client-web/app/(auth)/seller/login/page.tsx",
+          "hash": "3146405628061624802"
+        },
+        {
+          "file": "apps/client-web/app/(auth)/seller/register/page.tsx",
+          "hash": "127413382264817585"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/admin/blogs/page.tsx",
+          "hash": "336647033842428856"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/admin/category/page.tsx",
+          "hash": "2126383827177083441"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/admin/chat-sellers/page.tsx",
+          "hash": "6733406954157369341"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/admin/customers/[Id]/page.tsx",
+          "hash": "7181478665810103676"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/admin/customers/page.tsx",
+          "hash": "11464444308099270259"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/admin/orders/[id]/page.tsx",
+          "hash": "16949005664939394183"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/admin/orders/page.tsx",
+          "hash": "5125296078191278617"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/admin/page.tsx",
+          "hash": "12870053015886177390"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/admin/payment-request/page.tsx",
+          "hash": "17438005947921899900"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/admin/sellers/[sellerId]/page.tsx",
+          "hash": "17825196501022445139"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/admin/sellers/page.tsx",
+          "hash": "9868077646400587417"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/layout.tsx",
+          "hash": "1413988944223598893"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/addProduct/page.tsx",
+          "hash": "8406296404799915951"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/allproducts/editproduct/[Id]/page.tsx",
+          "hash": "13740196516690411794"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/allproducts/page.tsx",
+          "hash": "16029912477996903640"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/banner/[id]/page.tsx",
+          "hash": "4632045082122500116"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/chatcustomer/page.tsx",
+          "hash": "2354293245462346013"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/chatsupport/page.tsx",
+          "hash": "9031075109354107219"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/discountProduct/page.tsx",
+          "hash": "3915568612825899651"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/orders/[id]/page.tsx",
+          "hash": "9726942744650749637"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/orders/page.tsx",
+          "hash": "1757584480597306283"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/page.tsx",
+          "hash": "4617869692107624240"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/payments/page.tsx",
+          "hash": "7439405693941953354"
+        },
+        {
+          "file": "apps/client-web/app/(dashboard)/seller/profile/page.tsx",
+          "hash": "14504681769213482864"
+        },
+        {
+          "file": "apps/client-web/app/api/admin/[id]/route.ts",
+          "hash": "2667946809523787013"
+        },
+        {
+          "file": "apps/client-web/app/api/admin/customer/[customerId]/route.ts",
+          "hash": "5441832806027305266"
+        },
+        {
+          "file": "apps/client-web/app/api/admin/customer/update-status/route.ts",
+          "hash": "747853617056846148"
+        },
+        {
+          "file": "apps/client-web/app/api/admin/customer/update-type/route.ts",
+          "hash": "13967105460946555370"
+        },
+        {
+          "file": "apps/client-web/app/api/admin/dashboard-data/main/route.ts",
+          "hash": "13179371768212255629"
+        },
+        {
+          "file": "apps/client-web/app/api/admin/dashboard-data/route.ts",
+          "hash": "3675288773902607646"
+        },
+        {
+          "file": "apps/client-web/app/api/admin/seller-payments/[cashoutId]/route.ts",
+          "hash": "3732710270156310885"
+        },
+        {
+          "file": "apps/client-web/app/api/admin/seller-payments/route.ts",
+          "hash": "17106084824763535674"
+        },
+        {
+          "file": "apps/client-web/app/api/admin/seller/[sellerId]/route.ts",
+          "hash": "2635484362131363718"
+        },
+        {
+          "file": "apps/client-web/app/api/auth/admin/login/route.ts",
+          "hash": "2013742909412954662"
+        },
+        {
+          "file": "apps/client-web/app/api/auth/customer/login/route.ts",
+          "hash": "7613310098418859293"
+        },
+        {
+          "file": "apps/client-web/app/api/auth/customer/oauth/route.ts",
+          "hash": "15511216937079676004"
+        },
+        {
+          "file": "apps/client-web/app/api/auth/customer/register/route.ts",
+          "hash": "18273828210581433580"
+        },
+        {
+          "file": "apps/client-web/app/api/auth/logout/route.ts",
+          "hash": "7743291788476425325"
+        },
+        {
+          "file": "apps/client-web/app/api/auth/seller/login/route.ts",
+          "hash": "11390181367721682317"
+        },
+        {
+          "file": "apps/client-web/app/api/auth/seller/register/route.ts",
+          "hash": "7817284442935152109"
+        },
+        {
+          "file": "apps/client-web/app/api/banner/[bannerId]/route.ts",
+          "hash": "17518645458740384360"
+        },
+        {
+          "file": "apps/client-web/app/api/banner/by-product/[productId]/route.ts",
+          "hash": "4465082397135347741"
+        },
+        {
+          "file": "apps/client-web/app/api/banner/route.ts",
+          "hash": "15901550569550489718"
+        },
+        {
+          "file": "apps/client-web/app/api/blogs/[slug]/route.ts",
+          "hash": "16726966772989833033"
+        },
+        {
+          "file": "apps/client-web/app/api/blogs/route.ts",
+          "hash": "7717452745080336703"
+        },
+        {
+          "file": "apps/client-web/app/api/cart/add-to-cart/route.ts",
+          "hash": "4828083475982492595"
+        },
+        {
+          "file": "apps/client-web/app/api/cart/delete-cart/[id]/route.ts",
+          "hash": "2385168581533351324"
+        },
+        {
+          "file": "apps/client-web/app/api/cart/get-cart/[userId]/route.ts",
+          "hash": "17495011114239277006"
+        },
+        {
+          "file": "apps/client-web/app/api/cart/quantity-dec/[cart_Id]/route.ts",
+          "hash": "3567681297959111674"
+        },
+        {
+          "file": "apps/client-web/app/api/cart/quantity-inc/[cart_Id]/route.ts",
+          "hash": "9439180901016802354"
+        },
+        {
+          "file": "apps/client-web/app/api/category/[id]/route.ts",
+          "hash": "11301840293287366836"
+        },
+        {
+          "file": "apps/client-web/app/api/category/route.ts",
+          "hash": "8247738699228145246"
+        },
+        {
+          "file": "apps/client-web/app/api/chat/conversations/route.ts",
+          "hash": "15030382606029103874"
+        },
+        {
+          "file": "apps/client-web/app/api/chat/messages/route.ts",
+          "hash": "8434726862934721325"
+        },
+        {
+          "file": "apps/client-web/app/api/chat/upload/route.ts",
+          "hash": "9366169922500730369"
+        },
+        {
+          "file": "apps/client-web/app/api/customers/[id]/route.ts",
+          "hash": "12213264459962166505"
+        },
+        {
+          "file": "apps/client-web/app/api/customers/confirm-subscription/route.ts",
+          "hash": "15734359080008178324"
+        },
+        {
+          "file": "apps/client-web/app/api/customers/get-dashboard-data/[userId]/route.ts",
+          "hash": "11040483101432104258"
+        },
+        {
+          "file": "apps/client-web/app/api/customers/get-order/[orderId]/route.ts",
+          "hash": "10469038927016232505"
+        },
+        {
+          "file": "apps/client-web/app/api/customers/initiate-subscription/route.ts",
+          "hash": "12845330044283780961"
+        },
+        {
+          "file": "apps/client-web/app/api/customers/join-subscription/route.ts",
+          "hash": "7144394776404958165"
+        },
+        {
+          "file": "apps/client-web/app/api/customers/order/[customerId]/route.ts",
+          "hash": "8606323464392167381"
+        },
+        {
+          "file": "apps/client-web/app/api/customers/order/route.ts",
+          "hash": "16461748000388567916"
+        },
+        {
+          "file": "apps/client-web/app/api/debug/currency-rates/route.ts",
+          "hash": "14956782918786914186"
+        },
+        {
+          "file": "apps/client-web/app/api/home/route.ts",
+          "hash": "7013140230824782317"
+        },
+        {
+          "file": "apps/client-web/app/api/internal/customer-registration/enroll/route.ts",
+          "hash": "6608336269286588837"
+        },
+        {
+          "file": "apps/client-web/app/api/internal/customer-registration/send-email/route.ts",
+          "hash": "14110214877738608339"
+        },
+        {
+          "file": "apps/client-web/app/api/momo/route.ts",
+          "hash": "3200584816394856428"
+        },
+        {
+          "file": "apps/client-web/app/api/newsletter/send/route.ts",
+          "hash": "10666221529152868513"
+        },
+        {
+          "file": "apps/client-web/app/api/order/[orderId]/route.ts",
+          "hash": "407230021384034570"
+        },
+        {
+          "file": "apps/client-web/app/api/order/route.ts",
+          "hash": "2568118153681427833"
+        },
+        {
+          "file": "apps/client-web/app/api/payments/confirm/route.ts",
+          "hash": "7899950344266559646"
+        },
+        {
+          "file": "apps/client-web/app/api/payments/initiate/route.ts",
+          "hash": "10584919457424881281"
+        },
+        {
+          "file": "apps/client-web/app/api/payments/webhook/stripe/route.ts",
+          "hash": "15758267193160578819"
+        },
+        {
+          "file": "apps/client-web/app/api/price-range/route.ts",
+          "hash": "11543360486780382126"
+        },
+        {
+          "file": "apps/client-web/app/api/products/[productId]/route.ts",
+          "hash": "14191236739538445083"
+        },
+        {
+          "file": "apps/client-web/app/api/products/image-update/route.ts",
+          "hash": "12297456498918258571"
+        },
+        {
+          "file": "apps/client-web/app/api/products/product/[slug]/route.ts",
+          "hash": "14971743309140016498"
+        },
+        {
+          "file": "apps/client-web/app/api/products/route.ts",
+          "hash": "11651325437177264080"
+        },
+        {
+          "file": "apps/client-web/app/api/products/sellersProducts/route.ts",
+          "hash": "5797118946602284822"
+        },
+        {
+          "file": "apps/client-web/app/api/query-products/route.ts",
+          "hash": "12856426656605603493"
+        },
+        {
+          "file": "apps/client-web/app/api/reviews/[productId]/route.ts",
+          "hash": "9009151679711295124"
+        },
+        {
+          "file": "apps/client-web/app/api/seller/[sellerId]/route.ts",
+          "hash": "4463292810552358727"
+        },
+        {
+          "file": "apps/client-web/app/api/seller/image-upload/route.ts",
+          "hash": "8429665481067137429"
+        },
+        {
+          "file": "apps/client-web/app/api/seller/payments/route.ts",
+          "hash": "9061859360713859956"
+        },
+        {
+          "file": "apps/client-web/app/api/seller/update-profile/route.ts",
+          "hash": "10902838193746065085"
+        },
+        {
+          "file": "apps/client-web/app/api/submit-review/route.ts",
+          "hash": "2486811855413847275"
+        },
+        {
+          "file": "apps/client-web/app/api/subscribe/route.ts",
+          "hash": "11070584713246978829"
+        },
+        {
+          "file": "apps/client-web/app/api/unsubscribe/route.ts",
+          "hash": "17306806717532327430"
+        },
+        {
+          "file": "apps/client-web/app/api/wallet/deduct/route.ts",
+          "hash": "2368462140230028241"
+        },
+        {
+          "file": "apps/client-web/app/api/wallet/overview/route.ts",
+          "hash": "416453471865139870"
+        },
+        {
+          "file": "apps/client-web/app/api/wallet/transfer/route.ts",
+          "hash": "11139262926616855666"
+        },
+        {
+          "file": "apps/client-web/app/api/wishlist/add-to-wishlist/route.ts",
+          "hash": "18028137501246751693"
+        },
+        {
+          "file": "apps/client-web/app/api/wishlist/delete-wishlist/[id]/route.ts",
+          "hash": "17516065814834519060"
+        },
+        {
+          "file": "apps/client-web/app/api/wishlist/get-wishlist/[userId]/route.ts",
+          "hash": "17161646712589358216"
+        },
+        {
+          "file": "apps/client-web/app/favicon.ico",
+          "hash": "1226677962017072392"
+        },
+        {
+          "file": "apps/client-web/app/globals.css",
+          "hash": "3448880859893875553"
+        },
+        {
+          "file": "apps/client-web/app/layout.tsx",
+          "hash": "15573096064793199835"
+        },
+        {
+          "file": "apps/client-web/app/manifest.ts",
+          "hash": "14943980666755153405"
+        },
+        {
+          "file": "apps/client-web/components.json",
+          "hash": "4933135889955399929"
+        },
+        {
+          "file": "apps/client-web/components/AdminComponents/AddBlogs.tsx",
+          "hash": "13273086150327871422"
+        },
+        {
+          "file": "apps/client-web/components/AdminComponents/AddCategoris.tsx",
+          "hash": "4606547442752281577"
+        },
+        {
+          "file": "apps/client-web/components/AdminComponents/AdminLoginForm.tsx",
+          "hash": "1304787497870172349"
+        },
+        {
+          "file": "apps/client-web/components/AdminComponents/Bolgs.tsx",
+          "hash": "1557817540941721496"
+        },
+        {
+          "file": "apps/client-web/components/AdminComponents/Categorys.tsx",
+          "hash": "11191868874839083896"
+        },
+        {
+          "file": "apps/client-web/components/AdminComponents/EditCutomer.tsx",
+          "hash": "1613847371559708129"
+        },
+        {
+          "file": "apps/client-web/components/AdminComponents/EditSeller.tsx",
+          "hash": "9671283623205080719"
+        },
+        {
+          "file": "apps/client-web/components/AdminComponents/PaymentRequestManager.tsx",
+          "hash": "9721763937337058487"
+        },
+        {
+          "file": "apps/client-web/components/AdminComponents/SellerPaymentsOverview.tsx",
+          "hash": "8606576981283623244"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/AllNav.tsx",
+          "hash": "11267020213553578429"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/ChartComponent.tsx",
+          "hash": "10097536587142933574"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/DashboardCard.tsx",
+          "hash": "16457681278915182575"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/FormInput.tsx",
+          "hash": "12995061606338453380"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/Header.tsx",
+          "hash": "12653579758884972759"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/OrderTable.tsx",
+          "hash": "930970312052682104"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/Orderlist.tsx",
+          "hash": "7868640764026089767"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/Pagination.tsx",
+          "hash": "14641557263451741355"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/PendingAccount.tsx",
+          "hash": "13183929036883950267"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/Search.tsx",
+          "hash": "6018886072262983855"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/Sidebar.tsx",
+          "hash": "11631759414059727282"
+        },
+        {
+          "file": "apps/client-web/components/DashboardComponents/UserTable.tsx",
+          "hash": "128198397537695963"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/AddProductForm.tsx",
+          "hash": "2373847754224602892"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/Addbanner.tsx",
+          "hash": "4364698081157759855"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/AllProducts.tsx",
+          "hash": "11625202947449218983"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/ChangePassword.tsx",
+          "hash": "16727906626323486255"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/DiscountedProducts.tsx",
+          "hash": "2081754028998538166"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/ProductTable.tsx",
+          "hash": "12464700331086599027"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/RecentMessagesCard.tsx",
+          "hash": "5854436428666511625"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/SellerLoginForm.tsx",
+          "hash": "7946071766260709646"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/SellerPayments.tsx",
+          "hash": "15349652118045647925"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/SellerRegisterForm.tsx",
+          "hash": "8500469567016086546"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/UpdateProduct.tsx",
+          "hash": "1279462849813888174"
+        },
+        {
+          "file": "apps/client-web/components/SellerComponents/UserProfile.tsx",
+          "hash": "6713588108873895804"
+        },
+        {
+          "file": "apps/client-web/components/Skeletons/FromShopSkeleton.tsx",
+          "hash": "2973714534029635012"
+        },
+        {
+          "file": "apps/client-web/components/Skeletons/RelatedProductSkeleton.tsx",
+          "hash": "942895597365215148"
+        },
+        {
+          "file": "apps/client-web/components/Skeletons/SkeletonBanner.tsx",
+          "hash": "18242943273785516188"
+        },
+        {
+          "file": "apps/client-web/components/Skeletons/SkeletonCategory.tsx",
+          "hash": "14056279672205043755"
+        },
+        {
+          "file": "apps/client-web/components/Skeletons/SkeletonProductCard.tsx",
+          "hash": "9526691768415485211"
+        },
+        {
+          "file": "apps/client-web/components/Skeletons/SkeletonProductCarouselItem.tsx",
+          "hash": "16706455690201962418"
+        },
+        {
+          "file": "apps/client-web/components/StoreComponents/LiveChatPanel.tsx",
+          "hash": "5516646796002196965"
+        },
+        {
+          "file": "apps/client-web/components/Wrappers/AuthInitializer.tsx",
+          "hash": "15302356998320926971"
+        },
+        {
+          "file": "apps/client-web/components/Wrappers/CurrencyProvider.tsx",
+          "hash": "486847053220615887"
+        },
+        {
+          "file": "apps/client-web/components/Wrappers/DashboardShell.tsx",
+          "hash": "7255031268453615526"
+        },
+        {
+          "file": "apps/client-web/components/Wrappers/PWARegister.tsx",
+          "hash": "12548776954274620297"
+        },
+        {
+          "file": "apps/client-web/components/Wrappers/ProviderWrapper.tsx",
+          "hash": "5129552220587563794"
+        },
+        {
+          "file": "apps/client-web/components/Wrappers/UserDashboardShell.tsx",
+          "hash": "13928232928506305870"
+        },
+        {
+          "file": "apps/client-web/components/ui/StarRating.tsx",
+          "hash": "18244620757553223279"
+        },
+        {
+          "file": "apps/client-web/components/ui/button.tsx",
+          "hash": "17903495850237162029"
+        },
+        {
+          "file": "apps/client-web/components/ui/card.tsx",
+          "hash": "10309354795575189535"
+        },
+        {
+          "file": "apps/client-web/components/ui/carousel.tsx",
+          "hash": "10117962545392085621"
+        },
+        {
+          "file": "apps/client-web/components/ui/input.tsx",
+          "hash": "7115067256911231437"
+        },
+        {
+          "file": "apps/client-web/components/ui/label.tsx",
+          "hash": "16169029367832700723"
+        },
+        {
+          "file": "apps/client-web/components/ui/select.tsx",
+          "hash": "3420662164610776148"
+        },
+        {
+          "file": "apps/client-web/components/ui/skeleton.tsx",
+          "hash": "681191572479280175"
+        },
+        {
+          "file": "apps/client-web/components/ui/table.tsx",
+          "hash": "7869792890540493338"
+        },
+        {
+          "file": "apps/client-web/components/ui/textarea.tsx",
+          "hash": "13689250764558627201"
+        },
+        {
+          "file": "apps/client-web/emails/templates/newsletter.ejs",
+          "hash": "16252095193022439913"
+        },
+        {
+          "file": "apps/client-web/emails/templates/registration.ejs",
+          "hash": "8153957497840575436"
+        },
+        {
+          "file": "apps/client-web/emails/templates/subscription.ejs",
+          "hash": "1680955225370389247"
+        },
+        {
+          "file": "apps/client-web/lib/api-middlewar.ts",
+          "hash": "2208550860711815619"
+        },
+        {
+          "file": "apps/client-web/lib/auth.ts",
+          "hash": "11358415999452699171"
+        },
+        {
+          "file": "apps/client-web/lib/chatAuth.ts",
+          "hash": "6966150232705845690"
+        },
+        {
+          "file": "apps/client-web/lib/cloudinary.ts",
+          "hash": "9326624584761887393"
+        },
+        {
+          "file": "apps/client-web/lib/currencyRates.ts",
+          "hash": "5440611161281125341"
+        },
+        {
+          "file": "apps/client-web/lib/emailHelper.ts",
+          "hash": "13591748257441699807"
+        },
+        {
+          "file": "apps/client-web/lib/homeData.ts",
+          "hash": "10637278148682404931"
+        },
+        {
+          "file": "apps/client-web/lib/momo.ts",
+          "hash": "5238387727810038995"
+        },
+        {
+          "file": "apps/client-web/lib/newsletterHelper.ts",
+          "hash": "11068510640509454203"
+        },
+        {
+          "file": "apps/client-web/lib/paymentSettlement.ts",
+          "hash": "2377941198912198764"
+        },
+        {
+          "file": "apps/client-web/lib/productHelper.ts",
+          "hash": "10624570295757909696"
+        },
+        {
+          "file": "apps/client-web/lib/registerHelper.ts",
+          "hash": "16529776466479065289"
+        },
+        {
+          "file": "apps/client-web/lib/utils.ts",
+          "hash": "12218829721157087250"
+        },
+        {
+          "file": "apps/client-web/models/Admin.ts",
+          "hash": "10762639120298080228"
+        },
+        {
+          "file": "apps/client-web/models/AuthOrder.ts",
+          "hash": "3262095878232678027"
+        },
+        {
+          "file": "apps/client-web/models/Benners.ts",
+          "hash": "1627006015448457784"
+        },
+        {
+          "file": "apps/client-web/models/Blogs.ts",
+          "hash": "484620375672382959"
+        },
+        {
+          "file": "apps/client-web/models/Card.ts",
+          "hash": "7086890604767769276"
+        },
+        {
+          "file": "apps/client-web/models/Category.ts",
+          "hash": "9944844093789175710"
+        },
+        {
+          "file": "apps/client-web/models/ChatConversation.ts",
+          "hash": "5353985284544381264"
+        },
+        {
+          "file": "apps/client-web/models/ChatMessage.ts",
+          "hash": "4309479150992145617"
+        },
+        {
+          "file": "apps/client-web/models/CustomerOrder.ts",
+          "hash": "12923822822370944791"
+        },
+        {
+          "file": "apps/client-web/models/CustomerWallet.ts",
+          "hash": "9132478648873498925"
+        },
+        {
+          "file": "apps/client-web/models/MyShopWallet.ts",
+          "hash": "10773508969765009326"
+        },
+        {
+          "file": "apps/client-web/models/PendingGatewayPayment.ts",
+          "hash": "1552239786123091447"
+        },
+        {
+          "file": "apps/client-web/models/PendingSubscription.ts",
+          "hash": "8675525063839876658"
+        },
+        {
+          "file": "apps/client-web/models/Product.ts",
+          "hash": "15061209916239460115"
+        },
+        {
+          "file": "apps/client-web/models/Review.ts",
+          "hash": "13843137372885101654"
+        },
+        {
+          "file": "apps/client-web/models/Seller.ts",
+          "hash": "5745126622431238956"
+        },
+        {
+          "file": "apps/client-web/models/SellerCashout.ts",
+          "hash": "34226356105134339"
+        },
+        {
+          "file": "apps/client-web/models/SellerWallet.ts",
+          "hash": "3896204478270182827"
+        },
+        {
+          "file": "apps/client-web/models/User.ts",
+          "hash": "12262198067639235203"
+        },
+        {
+          "file": "apps/client-web/models/WalletTransaction.ts",
+          "hash": "5331698519678387527"
+        },
+        {
+          "file": "apps/client-web/models/Wishlist.ts",
+          "hash": "3996034925185110982"
+        },
+        {
+          "file": "apps/client-web/next.config.ts",
+          "hash": "17777597417991647135"
+        },
+        {
+          "file": "apps/client-web/postcss.config.mjs",
+          "hash": "512361679910886401"
+        },
+        {
+          "file": "apps/client-web/project.json",
+          "hash": "8348714842013466921"
+        },
+        {
+          "file": "apps/client-web/proxy.ts",
+          "hash": "4456456997915132448"
+        },
+        {
+          "file": "apps/client-web/public/appicon-maskable-light.png",
+          "hash": "6708517243417808954"
+        },
+        {
+          "file": "apps/client-web/public/appicon-maskable.png",
+          "hash": "6532698597237585063"
+        },
+        {
+          "file": "apps/client-web/public/appicon.png",
+          "hash": "8570298412177244592"
+        },
+        {
+          "file": "apps/client-web/public/file.svg",
+          "hash": "15617830351863523835"
+        },
+        {
+          "file": "apps/client-web/public/globe.svg",
+          "hash": "9134466864871335697"
+        },
+        {
+          "file": "apps/client-web/public/images/admin.jpg",
+          "hash": "16014887481848789251"
+        },
+        {
+          "file": "apps/client-web/public/images/banner/card.jpg",
+          "hash": "1917943490687499781"
+        },
+        {
+          "file": "apps/client-web/public/images/banner/order.jpg",
+          "hash": "12415434963850777088"
+        },
+        {
+          "file": "apps/client-web/public/images/banner/shop.gif",
+          "hash": "5466676151923517229"
+        },
+        {
+          "file": "apps/client-web/public/images/error.png",
+          "hash": "11970132406377887008"
+        },
+        {
+          "file": "apps/client-web/public/images/google_g_icon.svg",
+          "hash": "5665715810013754610"
+        },
+        {
+          "file": "apps/client-web/public/images/language.png",
+          "hash": "17618253417445834131"
+        },
+        {
+          "file": "apps/client-web/public/images/login.jpg",
+          "hash": "15597707160829272849"
+        },
+        {
+          "file": "apps/client-web/public/images/logo.png",
+          "hash": "5906290878475968595"
+        },
+        {
+          "file": "apps/client-web/public/images/payment/airtelpay.jpg",
+          "hash": "2842101802401387612"
+        },
+        {
+          "file": "apps/client-web/public/images/payment/gpay.svg",
+          "hash": "4108271569621290194"
+        },
+        {
+          "file": "apps/client-web/public/images/payment/momo-pay.png",
+          "hash": "2199773954729929455"
+        },
+        {
+          "file": "apps/client-web/public/images/payment/paypal.png",
+          "hash": "6305441483717972305"
+        },
+        {
+          "file": "apps/client-web/public/images/payment/razorpay.svg",
+          "hash": "14661697046246154828"
+        },
+        {
+          "file": "apps/client-web/public/images/payment/stripe.svg",
+          "hash": "11901067245444803815"
+        },
+        {
+          "file": "apps/client-web/public/images/payment/wallet.png",
+          "hash": "9360727271719874055"
+        },
+        {
+          "file": "apps/client-web/public/images/seller.png",
+          "hash": "8351976858851759152"
+        },
+        {
+          "file": "apps/client-web/public/images/success.png",
+          "hash": "5640677323475891042"
+        },
+        {
+          "file": "apps/client-web/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/client-web/public/sw.js",
+          "hash": "5315656362429973318"
+        },
+        {
+          "file": "apps/client-web/public/vercel.svg",
+          "hash": "3007623926711696394"
+        },
+        {
+          "file": "apps/client-web/public/window.svg",
+          "hash": "16677869292061012332"
+        },
+        {
+          "file": "apps/client-web/store/Admin/adminSlice.ts",
+          "hash": "3405436717223592504"
+        },
+        {
+          "file": "apps/client-web/store/Auth/authSlice.ts",
+          "hash": "1626590865422505908"
+        },
+        {
+          "file": "apps/client-web/store/Blog/blogSlice.ts",
+          "hash": "3214285446941711157"
+        },
+        {
+          "file": "apps/client-web/store/Categoris/categorySlice.ts",
+          "hash": "17080498684035566094"
+        },
+        {
+          "file": "apps/client-web/store/Dashboard/dashboardSlice.ts",
+          "hash": "32860578681872275"
+        },
+        {
+          "file": "apps/client-web/store/Dashboard/homeDashboardSlice.ts",
+          "hash": "5378199446501664870"
+        },
+        {
+          "file": "apps/client-web/store/Emails/newsLetterSlice.ts",
+          "hash": "9335756313168123938"
+        },
+        {
+          "file": "apps/client-web/store/Home/homeSlice.ts",
+          "hash": "8012193156591709244"
+        },
+        {
+          "file": "apps/client-web/store/Momo/momoSlice.ts",
+          "hash": "841082446527583084"
+        },
+        {
+          "file": "apps/client-web/store/Order/orderSlice.ts",
+          "hash": "14591984344286627796"
+        },
+        {
+          "file": "apps/client-web/store/Review/reviewSlice.ts",
+          "hash": "8519295451671485698"
+        },
+        {
+          "file": "apps/client-web/store/cart/cartSlice.ts",
+          "hash": "9726071898178852443"
+        },
+        {
+          "file": "apps/client-web/store/hooks.ts",
+          "hash": "3960233965986611762"
+        },
+        {
+          "file": "apps/client-web/store/products/bannerSlice.ts",
+          "hash": "14953570448549237526"
+        },
+        {
+          "file": "apps/client-web/store/products/productSlice.ts",
+          "hash": "11290896230852408637"
+        },
+        {
+          "file": "apps/client-web/store/store.ts",
+          "hash": "9080469858367265375"
+        },
+        {
+          "file": "apps/client-web/store/wallet/walletSlice.ts",
+          "hash": "16319577919973440966"
+        },
+        {
+          "file": "apps/client-web/tsconfig.json",
+          "hash": "5928368233916099073"
+        },
+        {
+          "file": "apps/client-web/utils/ConnectDB.ts",
+          "hash": "18189725145935894511"
+        },
+        {
+          "file": "apps/client-web/utils/authUtils.ts",
+          "hash": "3954897197578705327"
+        },
+        {
+          "file": "apps/client-web/utils/axiosInstance.ts",
+          "hash": "17478166657934771186"
+        },
+        {
+          "file": "apps/client-web/utils/customerType.ts",
+          "hash": "15771650750236863673"
+        },
+        {
+          "file": "apps/client-web/utils/formatPrice.ts",
+          "hash": "13311157671232295416"
+        },
+        {
+          "file": "apps/client-web/utils/generateSlug.ts",
+          "hash": "153866520461620616"
+        },
+        {
+          "file": "apps/client-web/utils/getToken.ts",
+          "hash": "2674169766560359768"
+        },
+        {
+          "file": "apps/client-web/utils/helpers.ts",
+          "hash": "16912602914499292414"
+        },
+        {
+          "file": "apps/client-web/utils/jwt-decode.ts",
+          "hash": "609601712828310056"
+        },
+        {
+          "file": "apps/client-web/utils/mlmUtils.ts",
+          "hash": "18097861288266409126"
+        },
+        {
+          "file": "apps/client-web/utils/subscriptionConfig.ts",
+          "hash": "10760082782765691923"
+        },
+        {
+          "file": "apps/client-web/utils/subscriptionEnrollment.ts",
+          "hash": "11097221840918260818"
+        },
+        {
+          "file": "apps/client-web/vercel.json",
+          "hash": "1922264434704463658"
+        }
+      ],
+      "wishlist-service": [
+        {
+          "file": "services/wishlist-service/README.md",
+          "hash": "8899228549013060233"
+        },
+        {
+          "file": "services/wishlist-service/project.json",
+          "hash": "6955238056750696270"
+        },
+        {
+          "file": "services/wishlist-service/src/index.js",
+          "hash": "6603497484245205853"
+        }
+      ],
+      "@nasi/api-sdk": [
+        {
+          "file": "packages/api-sdk/package.json",
+          "hash": "16270873122647099477"
+        },
+        {
+          "file": "packages/api-sdk/src/client.ts",
+          "hash": "9995085700124152122"
+        },
+        {
+          "file": "packages/api-sdk/src/index.ts",
+          "hash": "18092527046891327033"
+        }
+      ],
+      "notification-service": [
+        {
+          "file": "services/notification-service/README.md",
+          "hash": "5788837684088858187"
+        },
+        {
+          "file": "services/notification-service/project.json",
+          "hash": "10612480949495915537"
+        },
+        {
+          "file": "services/notification-service/src/index.js",
+          "hash": "14664774753081640201"
+        }
+      ],
+      "seller-service": [
+        {
+          "file": "services/seller-service/README.md",
+          "hash": "14278635596818360892"
+        },
+        {
+          "file": "services/seller-service/project.json",
+          "hash": "6480091010471232869"
+        },
+        {
+          "file": "services/seller-service/src/index.js",
+          "hash": "15349341010626819858"
+        }
+      ],
+      "admin-web": [
+        {
+          "file": "apps/admin-web/app/(auth)/admin/login/page.tsx",
+          "hash": "18282813716581187958"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/blogs/page.tsx",
+          "hash": "17810646877850954342"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/category/page.tsx",
+          "hash": "12346110560802434082"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/chat-sellers/page.tsx",
+          "hash": "8612131427150155663"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/customers/[Id]/page.tsx",
+          "hash": "15046798560645810881"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/customers/page.tsx",
+          "hash": "10345043546019227632"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/orders/[id]/page.tsx",
+          "hash": "10319518928698592292"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/orders/page.tsx",
+          "hash": "13581550569621188029"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/page.tsx",
+          "hash": "9735233030421483371"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/payment-request/page.tsx",
+          "hash": "6727213999009757196"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/sellers/[sellerId]/page.tsx",
+          "hash": "6894019680680637967"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/sellers/page.tsx",
+          "hash": "12043559906940121333"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/layout.tsx",
+          "hash": "16311649296493705601"
+        },
+        {
+          "file": "apps/admin-web/app/layout.tsx",
+          "hash": "83204822362610169"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/AddBlogs.tsx",
+          "hash": "2423389263186009984"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/AddCategoris.tsx",
+          "hash": "16757519162201168900"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/AdminLoginForm.tsx",
+          "hash": "15500199965362175311"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/Bolgs.tsx",
+          "hash": "15840390897900949532"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/Categorys.tsx",
+          "hash": "16141869697895740903"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/EditCutomer.tsx",
+          "hash": "6470542384503461356"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/EditSeller.tsx",
+          "hash": "10242831805942559802"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/PaymentRequestManager.tsx",
+          "hash": "10339514107215600615"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/SellerPaymentsOverview.tsx",
+          "hash": "6036586263713544625"
+        },
+        {
+          "file": "apps/admin-web/next.config.ts",
+          "hash": "17777597417991647135"
+        },
+        {
+          "file": "apps/admin-web/postcss.config.mjs",
+          "hash": "512361679910886401"
+        },
+        {
+          "file": "apps/admin-web/project.json",
+          "hash": "3694393380004558785"
+        },
+        {
+          "file": "apps/admin-web/tsconfig.json",
+          "hash": "10839150922706343075"
+        }
+      ],
+      "seller-web": [
+        {
+          "file": "apps/seller-web/.next/dev/build-manifest.json",
+          "hash": "8866279905067011799"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/.rscinfo",
+          "hash": "1576198106696321278"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/next-devtools-config.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development-fallback/0.pack.gz",
+          "hash": "6570794456826102289"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development-fallback/1.pack.gz",
+          "hash": "7814161719173564307"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development-fallback/index.pack.gz",
+          "hash": "16417623769816910147"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development-fallback/index.pack.gz.old",
+          "hash": "1102837786398810973"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development/0.pack.gz",
+          "hash": "5099420003554895330"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development/1.pack.gz",
+          "hash": "1951575423841251803"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development/2.pack.gz",
+          "hash": "9621806033562391819"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development/3.pack.gz",
+          "hash": "7979126476849257961"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development/4.pack.gz",
+          "hash": "3515231321927171058"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development/5.pack.gz",
+          "hash": "15463336336997397532"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development/6.pack.gz",
+          "hash": "5265541223324904277"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development/7.pack.gz",
+          "hash": "4690154369095710783"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development/index.pack.gz",
+          "hash": "7694916416346858286"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/client-development/index.pack.gz.old",
+          "hash": "9569771157790911467"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/server-development/0.pack.gz",
+          "hash": "12732046442346753913"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/server-development/1.pack.gz",
+          "hash": "8764785955249126285"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/server-development/2.pack.gz",
+          "hash": "8553313121068913500"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/server-development/3.pack.gz",
+          "hash": "16042380682101177627"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/server-development/4.pack.gz",
+          "hash": "348199463924207392"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/server-development/index.pack.gz",
+          "hash": "13913435354156482631"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/cache/webpack/server-development/index.pack.gz.old",
+          "hash": "3417286262413704596"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/logs/next-development.log",
+          "hash": "4545421103974580214"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/package.json",
+          "hash": "11338307439248427064"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/prerender-manifest.json",
+          "hash": "1461300150975098076"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/react-loadable-manifest.json",
+          "hash": "1507079139423230005"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/routes-manifest.json",
+          "hash": "8631896564026539507"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/app-paths-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/app/(auth)/seller/login/page.js",
+          "hash": "3572710271810798143"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/app/(auth)/seller/login/page_client-reference-manifest.js",
+          "hash": "11887062427959053479"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/interception-route-rewrite-manifest.js",
+          "hash": "10484309360224763022"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/middleware-build-manifest.js",
+          "hash": "12280400887642451967"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/middleware-manifest.json",
+          "hash": "9889576824779923310"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/middleware-react-loadable-manifest.js",
+          "hash": "751550916354388431"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/next-font-manifest.js",
+          "hash": "16541577805185552134"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/next-font-manifest.json",
+          "hash": "11891788324563068681"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/pages-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/server-reference-manifest.js",
+          "hash": "13062913855343812063"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/server-reference-manifest.json",
+          "hash": "11857022240876308473"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/@radix-ui.js",
+          "hash": "15723929281715415645"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/@react-oauth.js",
+          "hash": "14706123143249635023"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/@reduxjs.js",
+          "hash": "9741662728982844720"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/@swc.js",
+          "hash": "2518478713336447339"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/@vercel.js",
+          "hash": "10737813403512261299"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/agent-base.js",
+          "hash": "6020120934962985172"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/asynckit.js",
+          "hash": "332925594872983398"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/axios.js",
+          "hash": "588048576635880471"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/call-bind-apply-helpers.js",
+          "hash": "13887591786733878269"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/class-variance-authority.js",
+          "hash": "3886040582653372160"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/clsx.js",
+          "hash": "6444946086457250189"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/combined-stream.js",
+          "hash": "13520836663658767292"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/debug.js",
+          "hash": "3437309263285417337"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/delayed-stream.js",
+          "hash": "14097933321913393349"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/dunder-proto.js",
+          "hash": "17663998913885024684"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/es-define-property.js",
+          "hash": "11681935916335308082"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/es-errors.js",
+          "hash": "14546963193553033358"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/es-object-atoms.js",
+          "hash": "11126473129129160666"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/es-set-tostringtag.js",
+          "hash": "8925155685283794344"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/follow-redirects.js",
+          "hash": "14748024353870215943"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/form-data.js",
+          "hash": "4560193806294478266"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/function-bind.js",
+          "hash": "15172501607820730721"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/get-intrinsic.js",
+          "hash": "4821217733060212596"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/get-proto.js",
+          "hash": "16623478943528516047"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/goober.js",
+          "hash": "9867424080847913440"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/gopd.js",
+          "hash": "7914496851907127314"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/has-symbols.js",
+          "hash": "3184143287181639323"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/has-tostringtag.js",
+          "hash": "3043649879626561657"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/hasown.js",
+          "hash": "7890365675562401090"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/https-proxy-agent.js",
+          "hash": "821755566199503808"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/immer.js",
+          "hash": "11888911642083387356"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/jwt-decode.js",
+          "hash": "3480313333084729230"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/lucide-react.js",
+          "hash": "13905252896453454921"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/math-intrinsics.js",
+          "hash": "8497567276415839765"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/mime-db.js",
+          "hash": "13335360514279029585"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/mime-types.js",
+          "hash": "3110165349006546776"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/ms.js",
+          "hash": "1239016303587449819"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/next.js",
+          "hash": "12774568719772698489"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/proxy-from-env.js",
+          "hash": "4890982845053521162"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/react-hot-toast.js",
+          "hash": "2804104699491855698"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/react-icons.js",
+          "hash": "671318950148040869"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/react-redux.js",
+          "hash": "16646834245323835774"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/redux-persist.js",
+          "hash": "14803637391981522425"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/redux-thunk.js",
+          "hash": "4624037369982030717"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/redux.js",
+          "hash": "10632388848367278673"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/reselect.js",
+          "hash": "17380697257276857427"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/tailwind-merge.js",
+          "hash": "2754889039554583610"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/vendor-chunks/use-sync-external-store.js",
+          "hash": "16738631620604128763"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/server/webpack-runtime.js",
+          "hash": "4872291103329786275"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/chunks/_app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js",
+          "hash": "412378342082974902"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/chunks/app-pages-internals.js",
+          "hash": "12835464643864931345"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/chunks/app/(auth)/seller/login/page.js",
+          "hash": "3803824726201258020"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/chunks/app/layout.js",
+          "hash": "11977615914970971789"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/chunks/main-app.js",
+          "hash": "6197684189952721167"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/chunks/polyfills.js",
+          "hash": "8152964857117933876"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/chunks/webpack.js",
+          "hash": "9230442314638523255"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/css/app/layout.css",
+          "hash": "10716243497155607823"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/development/_buildManifest.js",
+          "hash": "13063724784290855366"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/development/_ssgManifest.js",
+          "hash": "17018243955171961484"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/media/013b72fa676f92e0-s.woff2",
+          "hash": "3970951982433048884"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/media/22a5144ee8d83bca-s.p.woff2",
+          "hash": "16024702059671493958"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/media/2b5b02fc7e511755-s.woff2",
+          "hash": "9239899538286023666"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/media/65f03d54ccadf4a8-s.woff2",
+          "hash": "10500402692959722274"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/media/7d4881bb7e1bf84d-s.p.woff2",
+          "hash": "5510393867788797993"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/media/9766a7e9e2e0ad5a-s.woff2",
+          "hash": "3389092000906816255"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/media/aa016aab0e6d1295-s.woff2",
+          "hash": "6492193865456477419"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/media/b66cf8e69499582a-s.woff2",
+          "hash": "11558091837541162062"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/media/b9408752a0c24fb9-s.woff2",
+          "hash": "5352122897997427385"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/media/e038a29029a234f2-s.woff2",
+          "hash": "7720271606743454954"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/media/f639721981034f88-s.woff2",
+          "hash": "4251721274958578185"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/18d5a98fe9536234.webpack.hot-update.json",
+          "hash": "8773209185785337189"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/57dbc73c3c82bbb1.webpack.hot-update.json",
+          "hash": "8773209185785337189"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/633457081244afec._.hot-update.json",
+          "hash": "10481436618516908015"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/72150bb25c8b0086.webpack.hot-update.json",
+          "hash": "8773209185785337189"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/8609085f0da99c64.webpack.hot-update.json",
+          "hash": "8773209185785337189"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/app/layout.18d5a98fe9536234.hot-update.js",
+          "hash": "9423153560368626470"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/app/layout.57dbc73c3c82bbb1.hot-update.js",
+          "hash": "13998082163454767269"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/app/layout.72150bb25c8b0086.hot-update.js",
+          "hash": "3417041891209455174"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/app/layout.8609085f0da99c64.hot-update.js",
+          "hash": "1567386018404409849"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/webpack.18d5a98fe9536234.hot-update.js",
+          "hash": "7457105841630337333"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/webpack.57dbc73c3c82bbb1.hot-update.js",
+          "hash": "14976822288668351585"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/webpack.72150bb25c8b0086.hot-update.js",
+          "hash": "12180005562748516775"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/static/webpack/webpack.8609085f0da99c64.hot-update.js",
+          "hash": "11712616893901827851"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/trace",
+          "hash": "18204648969712695815"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/types/app/(auth)/seller/login/page.ts",
+          "hash": "11710874970800483877"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/types/app/layout.ts",
+          "hash": "7083216326695807739"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/types/cache-life.d.ts",
+          "hash": "9184345898968772493"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/types/package.json",
+          "hash": "6094546126370684104"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/types/routes.d.ts",
+          "hash": "4048577805342776641"
+        },
+        {
+          "file": "apps/seller-web/.next/dev/types/validator.ts",
+          "hash": "17833662528745157314"
+        },
+        {
+          "file": "apps/seller-web/app/(auth)/seller/login/page.tsx",
+          "hash": "5027012939280146397"
+        },
+        {
+          "file": "apps/seller-web/app/(auth)/seller/register/page.tsx",
+          "hash": "8380463999929825726"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/layout.tsx",
+          "hash": "4503532637468945753"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/addProduct/page.tsx",
+          "hash": "7528537962070880872"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/allproducts/editproduct/[Id]/page.tsx",
+          "hash": "17444446428104716726"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/allproducts/page.tsx",
+          "hash": "2137973010079759898"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/banner/[id]/page.tsx",
+          "hash": "11436351255698504441"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/chatcustomer/page.tsx",
+          "hash": "7671327943059819102"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/chatsupport/page.tsx",
+          "hash": "16451017604736559092"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/discountProduct/page.tsx",
+          "hash": "17199027846599025784"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/orders/[id]/page.tsx",
+          "hash": "617696545595680463"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/orders/page.tsx",
+          "hash": "5550991595774888439"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/page.tsx",
+          "hash": "4621312625254396177"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/payments/page.tsx",
+          "hash": "11940075992005405606"
+        },
+        {
+          "file": "apps/seller-web/app/(dashboard)/seller/profile/page.tsx",
+          "hash": "12086686497779879161"
+        },
+        {
+          "file": "apps/seller-web/app/layout.tsx",
+          "hash": "11541868418500094199"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/AddProductForm.tsx",
+          "hash": "3343474368470263949"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/Addbanner.tsx",
+          "hash": "1337280645376595065"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/AllProducts.tsx",
+          "hash": "15484169394554961216"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/ChangePassword.tsx",
+          "hash": "1902070692201144129"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/DiscountedProducts.tsx",
+          "hash": "7895600869160502255"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/ProductTable.tsx",
+          "hash": "2827042089666919558"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/RecentMessagesCard.tsx",
+          "hash": "17783873486607678185"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/SellerLoginForm.tsx",
+          "hash": "7869364227077256439"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/SellerPayments.tsx",
+          "hash": "3194144861587194845"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/SellerRegisterForm.tsx",
+          "hash": "1792011081724915662"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/UpdateProduct.tsx",
+          "hash": "8904279314171966243"
+        },
+        {
+          "file": "apps/seller-web/components/SellerComponents/UserProfile.tsx",
+          "hash": "978133217443292917"
+        },
+        {
+          "file": "apps/seller-web/next.config.ts",
+          "hash": "17777597417991647135"
+        },
+        {
+          "file": "apps/seller-web/postcss.config.mjs",
+          "hash": "512361679910886401"
+        },
+        {
+          "file": "apps/seller-web/project.json",
+          "hash": "12438262223886061368"
+        },
+        {
+          "file": "apps/seller-web/store/Auth/authSlice.ts",
+          "hash": "17412701579532915276"
+        },
+        {
+          "file": "apps/seller-web/store/Categoris/categorySlice.ts",
+          "hash": "1962125218035094970"
+        },
+        {
+          "file": "apps/seller-web/store/Dashboard/homeDashboardSlice.ts",
+          "hash": "4193383289558955945"
+        },
+        {
+          "file": "apps/seller-web/store/hooks.ts",
+          "hash": "3960233965986611762"
+        },
+        {
+          "file": "apps/seller-web/store/products/bannerSlice.ts",
+          "hash": "13947460072293537207"
+        },
+        {
+          "file": "apps/seller-web/store/products/productSlice.ts",
+          "hash": "13592061158914521720"
+        },
+        {
+          "file": "apps/seller-web/store/store.ts",
+          "hash": "13580916086113318941"
+        },
+        {
+          "file": "apps/seller-web/tsconfig.json",
+          "hash": "17637851509329136714"
+        }
+      ],
+      "cart-service": [
+        {
+          "file": "services/cart-service/README.md",
+          "hash": "1951394091235647794"
+        },
+        {
+          "file": "services/cart-service/project.json",
+          "hash": "10751275418909137891"
+        },
+        {
+          "file": "services/cart-service/src/index.js",
+          "hash": "15432217361463814403"
+        }
+      ],
+      "@nasi/validation": [
+        {
+          "file": "packages/validation/package.json",
+          "hash": "3766106768436442797"
+        },
+        {
+          "file": "packages/validation/src/index.ts",
+          "hash": "15820885078571426481"
+        },
+        {
+          "file": "packages/validation/src/subscription.ts",
+          "hash": "7149696971004494013"
+        }
+      ],
+      "shipping-service": [
+        {
+          "file": "services/shipping-service/README.md",
+          "hash": "14296500257395929118"
+        },
+        {
+          "file": "services/shipping-service/project.json",
+          "hash": "3673268569406277827"
+        },
+        {
+          "file": "services/shipping-service/src/index.js",
+          "hash": "12389144019118554780"
+        }
+      ],
+      "@nasi/ui": [
+        {
+          "file": "packages/ui/package.json",
+          "hash": "5246860476232761176"
+        },
+        {
+          "file": "packages/ui/src/StarRating.tsx",
+          "hash": "6678671179182333126"
+        },
+        {
+          "file": "packages/ui/src/button.tsx",
+          "hash": "8237533245726772997"
+        },
+        {
+          "file": "packages/ui/src/card.tsx",
+          "hash": "3776967686581303221"
+        },
+        {
+          "file": "packages/ui/src/carousel.tsx",
+          "hash": "7349051393472651190"
+        },
+        {
+          "file": "packages/ui/src/index.ts",
+          "hash": "9289965202447492490"
+        },
+        {
+          "file": "packages/ui/src/input.tsx",
+          "hash": "14650846850398797873"
+        },
+        {
+          "file": "packages/ui/src/label.tsx",
+          "hash": "17060556787301411006"
+        },
+        {
+          "file": "packages/ui/src/select.tsx",
+          "hash": "16416385498063367678"
+        },
+        {
+          "file": "packages/ui/src/skeleton.tsx",
+          "hash": "3000591494574702187"
+        },
+        {
+          "file": "packages/ui/src/table.tsx",
+          "hash": "11918550134086135915"
+        },
+        {
+          "file": "packages/ui/src/textarea.tsx",
+          "hash": "18065943275049648836"
+        }
+      ],
+      "mobile-app": [
+        {
+          "file": "apps/mobile-app/README.md",
+          "hash": "298173863134936989"
+        },
+        {
+          "file": "apps/mobile-app/project.json",
+          "hash": "2190717719177376058"
+        }
+      ],
+      "coupon-service": [
+        {
+          "file": "services/coupon-service/README.md",
+          "hash": "15815115837415983799"
+        },
+        {
+          "file": "services/coupon-service/project.json",
+          "hash": "5707668994299745873"
+        },
+        {
+          "file": "services/coupon-service/src/index.js",
+          "hash": "4920950250115142830"
+        }
+      ],
+      "@nasi/constants": [
+        {
+          "file": "packages/constants/package.json",
+          "hash": "12241267812396466024"
+        },
+        {
+          "file": "packages/constants/src/index.ts",
+          "hash": "15820885078571426481"
+        },
+        {
+          "file": "packages/constants/src/subscription.ts",
+          "hash": "6096251921103801886"
+        }
+      ],
+      "ai-service": [
+        {
+          "file": "services/ai-service/README.md",
+          "hash": "5748004004318259580"
+        },
+        {
+          "file": "services/ai-service/project.json",
+          "hash": "14561467028037128184"
+        },
+        {
+          "file": "services/ai-service/src/index.js",
+          "hash": "174423253254157227"
+        }
+      ],
+      "inventory-service": [
+        {
+          "file": "services/inventory-service/README.md",
+          "hash": "7479502284425036156"
+        },
+        {
+          "file": "services/inventory-service/project.json",
+          "hash": "12258263018013997951"
+        },
+        {
+          "file": "services/inventory-service/src/index.js",
+          "hash": "9123265255567643215"
+        }
+      ],
+      "analytics-service": [
+        {
+          "file": "services/analytics-service/README.md",
+          "hash": "9957271711628603028"
+        },
+        {
+          "file": "services/analytics-service/project.json",
+          "hash": "13050112840564786096"
+        },
+        {
+          "file": "services/analytics-service/src/index.js",
+          "hash": "17985371220742314961"
+        }
+      ],
+      "auth-service": [
+        {
+          "file": "services/auth-service/README.md",
+          "hash": "496636286348207290"
+        },
+        {
+          "file": "services/auth-service/docs/auth-boundary-map.md",
+          "hash": "18265261024460178787"
+        },
+        {
+          "file": "services/auth-service/project.json",
+          "hash": "4165512217906738164"
+        },
+        {
+          "file": "services/auth-service/src/index.js",
+          "hash": "16909040596931237707"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/controllers/customer-login.controller.js",
+          "hash": "5101720974725482593"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/controllers/customer-register.controller.js",
+          "hash": "7257201438545537098"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/controllers/logout.controller.js",
+          "hash": "18095437384438591329"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/index.ts",
+          "hash": "9011363637044483924"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/services/customer-login.service.js",
+          "hash": "10868902219857939780"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/services/customer-register.service.js",
+          "hash": "4117352207814975740"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/services/logout.service.js",
+          "hash": "1322038881560721598"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/utils/cookie.service.js",
+          "hash": "13988836935213704366"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/utils/jwt.service.js",
+          "hash": "2635249235990542201"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/utils/password.service.js",
+          "hash": "14571537539322648391"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/utils/response.factory.js",
+          "hash": "8433453676254650612"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/utils/user.mapper.js",
+          "hash": "15227513111369252671"
+        },
+        {
+          "file": "services/auth-service/tests/customer-login-smoke.js",
+          "hash": "7877204762455903581"
+        },
+        {
+          "file": "services/auth-service/tests/utils/cookie.service.test.js",
+          "hash": "17981413671527160512"
+        },
+        {
+          "file": "services/auth-service/tests/utils/jwt.service.test.js",
+          "hash": "12679234803053861100"
+        },
+        {
+          "file": "services/auth-service/tests/utils/password.service.test.js",
+          "hash": "15431156485879775137"
+        },
+        {
+          "file": "services/auth-service/tests/utils/response.factory.test.js",
+          "hash": "5811984235540918974"
+        }
+      ],
+      "product-service": [
+        {
+          "file": "services/product-service/README.md",
+          "hash": "6792065350543368074"
+        },
+        {
+          "file": "services/product-service/project.json",
+          "hash": "3643799327629956617"
+        },
+        {
+          "file": "services/product-service/src/index.js",
+          "hash": "18310671372240542333"
+        }
+      ],
+      "@nasi/utils": [
+        {
+          "file": "packages/utils/package.json",
+          "hash": "17733728999922769938"
+        },
+        {
+          "file": "packages/utils/src/formatPrice.ts",
+          "hash": "8027679945654854672"
+        },
+        {
+          "file": "packages/utils/src/generateSlug.ts",
+          "hash": "1189867397876709703"
+        },
+        {
+          "file": "packages/utils/src/helpers.ts",
+          "hash": "5129692181847887434"
+        },
+        {
+          "file": "packages/utils/src/index.ts",
+          "hash": "1846569911304718323"
+        }
+      ],
+      "category-service": [
+        {
+          "file": "services/category-service/README.md",
+          "hash": "2382582324496559520"
+        },
+        {
+          "file": "services/category-service/project.json",
+          "hash": "16851486527464782599"
+        },
+        {
+          "file": "services/category-service/src/index.js",
+          "hash": "11574553018830714165"
+        }
+      ],
+      "user-service": [
+        {
+          "file": "services/user-service/README.md",
+          "hash": "14222478697771554276"
+        },
+        {
+          "file": "services/user-service/project.json",
+          "hash": "11356085632985883210"
+        },
+        {
+          "file": "services/user-service/src/index.js",
+          "hash": "2388550352632608793"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "17038932804411922887"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "analytics-service",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "services/analytics-service/src",
+  "projectType": "application",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node services/analytics-service/src/index.js"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node --check services/analytics-service/src/index.js"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node -e \"console.log('No tests configured for analytics-service yet')\""
+      }
+    }
+  },
+  "tags": ["scope:service"]
+}
+
+

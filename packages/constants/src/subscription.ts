@@ -1,0 +1,5 @@
+export const SUBSCRIPTION_JOINING_FEE = Number(
+  process.env.NEXT_PUBLIC_SUBSCRIPTION_JOINING_FEE ||
+    process.env.SUBSCRIPTION_JOINING_FEE ||
+    1500,
+);

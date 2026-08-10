@@ -1,0 +1,1512 @@
+{
+  "graph": {
+    "nodes": {
+      "notification-service": {
+        "name": "notification-service",
+        "type": "app",
+        "data": {
+          "root": "services/notification-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/notification-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/notification-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for notification-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "notification-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/notification-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "analytics-service": {
+        "name": "analytics-service",
+        "type": "app",
+        "data": {
+          "root": "services/analytics-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/analytics-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/analytics-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for analytics-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "analytics-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/analytics-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "inventory-service": {
+        "name": "inventory-service",
+        "type": "app",
+        "data": {
+          "root": "services/inventory-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/inventory-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/inventory-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for inventory-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "inventory-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/inventory-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "category-service": {
+        "name": "category-service",
+        "type": "app",
+        "data": {
+          "root": "services/category-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/category-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/category-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for category-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "category-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/category-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "currency-service": {
+        "name": "currency-service",
+        "type": "app",
+        "data": {
+          "root": "services/currency-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/currency-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/currency-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for currency-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "currency-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/currency-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "shipping-service": {
+        "name": "shipping-service",
+        "type": "app",
+        "data": {
+          "root": "services/shipping-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/shipping-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/shipping-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for shipping-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "shipping-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/shipping-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "wishlist-service": {
+        "name": "wishlist-service",
+        "type": "app",
+        "data": {
+          "root": "services/wishlist-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/wishlist-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/wishlist-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for wishlist-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "wishlist-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/wishlist-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "payment-service": {
+        "name": "payment-service",
+        "type": "app",
+        "data": {
+          "root": "services/payment-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/payment-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/payment-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for payment-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "payment-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/payment-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "product-service": {
+        "name": "product-service",
+        "type": "app",
+        "data": {
+          "root": "services/product-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/product-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/product-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for product-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "product-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/product-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "coupon-service": {
+        "name": "coupon-service",
+        "type": "app",
+        "data": {
+          "root": "services/coupon-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/coupon-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/coupon-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for coupon-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "coupon-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/coupon-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "review-service": {
+        "name": "review-service",
+        "type": "app",
+        "data": {
+          "root": "services/review-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/review-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/review-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for review-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "review-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/review-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "search-service": {
+        "name": "search-service",
+        "type": "app",
+        "data": {
+          "root": "services/search-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/search-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/search-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for search-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "search-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/search-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "seller-service": {
+        "name": "seller-service",
+        "type": "app",
+        "data": {
+          "root": "services/seller-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/seller-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/seller-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for seller-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "seller-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/seller-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "upload-service": {
+        "name": "upload-service",
+        "type": "app",
+        "data": {
+          "root": "services/upload-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/upload-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/upload-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for upload-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "upload-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/upload-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "wallet-service": {
+        "name": "wallet-service",
+        "type": "app",
+        "data": {
+          "root": "services/wallet-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/wallet-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/wallet-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for wallet-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "wallet-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/wallet-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "order-service": {
+        "name": "order-service",
+        "type": "app",
+        "data": {
+          "root": "services/order-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/order-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/order-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for order-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "order-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/order-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "auth-service": {
+        "name": "auth-service",
+        "type": "app",
+        "data": {
+          "root": "services/auth-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/auth-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/auth-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for auth-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "auth-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/auth-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "cart-service": {
+        "name": "cart-service",
+        "type": "app",
+        "data": {
+          "root": "services/cart-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/cart-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/cart-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for cart-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "cart-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/cart-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "chat-service": {
+        "name": "chat-service",
+        "type": "app",
+        "data": {
+          "root": "services/chat-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/chat-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/chat-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for chat-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "chat-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/chat-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "user-service": {
+        "name": "user-service",
+        "type": "app",
+        "data": {
+          "root": "services/user-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/user-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/user-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for user-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "user-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/user-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "api-gateway": {
+        "name": "api-gateway",
+        "type": "app",
+        "data": {
+          "root": "services/api-gateway",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/api-gateway/server.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/api-gateway/server.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for api-gateway yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "api-gateway",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/api-gateway/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "@nasi/validation": {
+        "name": "@nasi/validation",
+        "type": "lib",
+        "data": {
+          "root": "packages/validation",
+          "name": "@nasi/validation",
+          "projectType": "library",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageName": "@nasi/validation",
+              "packageVersion": "0.1.0",
+              "packageMain": "src/index.ts",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {},
+          "implicitDependencies": []
+        }
+      },
+      "ai-service": {
+        "name": "ai-service",
+        "type": "app",
+        "data": {
+          "root": "services/ai-service",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node services/ai-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node --check services/ai-service/src/index.js"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "test": {
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No tests configured for ai-service yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "ai-service",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "services/ai-service/src",
+          "projectType": "application",
+          "tags": [
+            "scope:service"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "@nasi/constants": {
+        "name": "@nasi/constants",
+        "type": "lib",
+        "data": {
+          "root": "packages/constants",
+          "name": "@nasi/constants",
+          "projectType": "library",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageName": "@nasi/constants",
+              "packageVersion": "0.1.0",
+              "packageMain": "src/index.ts",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {},
+          "implicitDependencies": []
+        }
+      },
+      "customer-web": {
+        "name": "customer-web",
+        "type": "app",
+        "data": {
+          "root": "apps/customer-web",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "next dev apps/customer-web --webpack -p 3000"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "inputs": [
+                "production",
+                "^production"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "next build apps/customer-web"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "tsc --noEmit -p apps/customer-web/tsconfig.json"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "customer-web",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "apps/customer-web",
+          "projectType": "application",
+          "tags": [
+            "scope:web",
+            "role:customer"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "@nasi/api-sdk": {
+        "name": "@nasi/api-sdk",
+        "type": "lib",
+        "data": {
+          "root": "packages/api-sdk",
+          "name": "@nasi/api-sdk",
+          "projectType": "library",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageName": "@nasi/api-sdk",
+              "packageVersion": "0.1.0",
+              "packageMain": "src/index.ts",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {},
+          "implicitDependencies": []
+        }
+      },
+      "client-web": {
+        "name": "client-web",
+        "type": "app",
+        "data": {
+          "root": "apps/client-web",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "next dev apps/client-web --webpack"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "inputs": [
+                "production",
+                "^production"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "next build apps/client-web"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "tsc --noEmit -p apps/client-web/tsconfig.json"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "client-web",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "apps/client-web",
+          "projectType": "application",
+          "tags": [
+            "scope:web",
+            "role:customer"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "mobile-app": {
+        "name": "mobile-app",
+        "type": "app",
+        "data": {
+          "root": "apps/mobile-app",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('mobile-app scaffold ready. Expo init pending approval.')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "node -e \"console.log('No lint configured for mobile-app yet')\""
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "mobile-app",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "apps/mobile-app",
+          "projectType": "application",
+          "tags": [
+            "scope:mobile",
+            "role:customer"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "seller-web": {
+        "name": "seller-web",
+        "type": "app",
+        "data": {
+          "root": "apps/seller-web",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "next dev apps/seller-web --webpack -p 3001"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "inputs": [
+                "production",
+                "^production"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "next build apps/seller-web"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "tsc --noEmit -p apps/seller-web/tsconfig.json"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "seller-web",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "apps/seller-web",
+          "projectType": "application",
+          "tags": [
+            "scope:web",
+            "role:seller"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "@nasi/hooks": {
+        "name": "@nasi/hooks",
+        "type": "lib",
+        "data": {
+          "root": "packages/hooks",
+          "name": "@nasi/hooks",
+          "projectType": "library",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageName": "@nasi/hooks",
+              "packageVersion": "0.1.0",
+              "packageMain": "src/index.ts",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {},
+          "implicitDependencies": []
+        }
+      },
+      "@nasi/theme": {
+        "name": "@nasi/theme",
+        "type": "lib",
+        "data": {
+          "root": "packages/theme",
+          "name": "@nasi/theme",
+          "projectType": "library",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageName": "@nasi/theme",
+              "packageVersion": "0.1.0",
+              "packageMain": "src/index.ts",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {},
+          "implicitDependencies": []
+        }
+      },
+      "@nasi/types": {
+        "name": "@nasi/types",
+        "type": "lib",
+        "data": {
+          "root": "packages/types",
+          "name": "@nasi/types",
+          "projectType": "library",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageName": "@nasi/types",
+              "packageVersion": "0.1.0",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {},
+          "implicitDependencies": []
+        }
+      },
+      "@nasi/utils": {
+        "name": "@nasi/utils",
+        "type": "lib",
+        "data": {
+          "root": "packages/utils",
+          "name": "@nasi/utils",
+          "projectType": "library",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageName": "@nasi/utils",
+              "packageVersion": "0.1.0",
+              "packageMain": "src/index.ts",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {},
+          "implicitDependencies": []
+        }
+      },
+      "admin-web": {
+        "name": "admin-web",
+        "type": "app",
+        "data": {
+          "root": "apps/admin-web",
+          "targets": {
+            "dev": {
+              "cache": false,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "next dev apps/admin-web --webpack -p 3002"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "build": {
+              "inputs": [
+                "production",
+                "^production"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "next build apps/admin-web"
+              },
+              "configurations": {},
+              "parallelism": true
+            },
+            "lint": {
+              "inputs": [
+                "default",
+                "^default"
+              ],
+              "cache": true,
+              "executor": "nx:run-commands",
+              "options": {
+                "command": "tsc --noEmit -p apps/admin-web/tsconfig.json"
+              },
+              "configurations": {},
+              "parallelism": true
+            }
+          },
+          "name": "admin-web",
+          "$schema": "../../node_modules/nx/schemas/project-schema.json",
+          "sourceRoot": "apps/admin-web",
+          "projectType": "application",
+          "tags": [
+            "scope:web",
+            "role:admin"
+          ],
+          "implicitDependencies": []
+        }
+      },
+      "@nasi/ui": {
+        "name": "@nasi/ui",
+        "type": "lib",
+        "data": {
+          "root": "packages/ui",
+          "name": "@nasi/ui",
+          "projectType": "library",
+          "tags": [
+            "npm:private"
+          ],
+          "metadata": {
+            "targetGroups": {},
+            "js": {
+              "packageName": "@nasi/ui",
+              "packageVersion": "0.1.0",
+              "packageMain": "src/index.ts",
+              "isInPackageManagerWorkspaces": true
+            }
+          },
+          "targets": {},
+          "implicitDependencies": []
+        }
+      }
+    },
+    "dependencies": {
+      "notification-service": [],
+      "analytics-service": [],
+      "inventory-service": [],
+      "category-service": [],
+      "currency-service": [],
+      "shipping-service": [],
+      "wishlist-service": [],
+      "payment-service": [],
+      "product-service": [],
+      "coupon-service": [],
+      "review-service": [],
+      "search-service": [],
+      "seller-service": [],
+      "upload-service": [],
+      "wallet-service": [],
+      "order-service": [],
+      "auth-service": [],
+      "cart-service": [],
+      "chat-service": [],
+      "user-service": [],
+      "api-gateway": [],
+      "@nasi/validation": [],
+      "ai-service": [],
+      "@nasi/constants": [],
+      "customer-web": [],
+      "@nasi/api-sdk": [],
+      "client-web": [],
+      "mobile-app": [],
+      "seller-web": [],
+      "@nasi/hooks": [],
+      "@nasi/theme": [],
+      "@nasi/types": [],
+      "@nasi/utils": [],
+      "admin-web": [],
+      "@nasi/ui": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "chat-service",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "services/chat-service/src",
+  "projectType": "application",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node services/chat-service/src/index.js"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node --check services/chat-service/src/index.js"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node -e \"console.log('No tests configured for chat-service yet')\""
+      }
+    }
+  },
+  "tags": ["scope:service"]
+}
+
+

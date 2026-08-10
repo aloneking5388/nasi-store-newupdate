@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NasiStore Weekly Newsletter</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+      }
+      .header {
+        text-align: center;
+        background-color: #4f46e5;
+        padding: 20px;
+        color: white;
+        border-radius: 8px 8px 0 0;
+      }
+      .product {
+        border-bottom: 1px solid #ddd;
+        padding: 15px 0;
+      }
+      .product:last-child {
+        border-bottom: none;
+      }
+      .product img {
+        max-width: 120px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+      }
+      .product h4 {
+        margin: 0;
+        font-size: 18px;
+        color: #222;
+      }
+      .product p {
+        margin: 3px 0;
+        font-size: 14px;
+        color: #555;
+      }
+      a.button {
+        display: inline-block;
+        background: #4f46e5;
+        color: white !important;
+        padding: 12px 24px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 6px;
+        margin-top: 20px;
+      }
+      .footer {
+        text-align: center;
+        background: #fafafa;
+        padding: 20px;
+        font-size: 13px;
+        color: #777;
+        border-radius: 0 0 8px 8px;
+      }
+      .footer a {
+        color: #10b981;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- Header -->
+      <div class="header">
+        <h2>🛒 This Week's New Arrivals</h2>
+        <p>Fresh picks from NasiStore just for you!</p>
+      </div>
+
+      <!-- Product List -->
+      <% if (products && products.length > 0) { %>
+        <% products.forEach(product => { %>
+          <div class="product">
+            <img src="<%= product.images[0] %>" alt="<%= product.name %>" width="200"/>
+            <h4><%= product.name %></h4>
+            <p>Price: $<%= product.price %></p>
+            <p>Category: <%= product.category %></p>
+          </div>
+        <% }); %>
+        
+        <div style="text-align: center;">
+          <a href="https://www.nasistore.com" class="button">View All Products</a>
+        </div>
+
+      <% } else { %>
+        <p style="text-align: center; padding: 30px 0;">
+          No new products released this week. Stay tuned!
+        </p>
+      <% } %>
+
+      <!-- Footer -->
+      <div class="footer">
+        <p>You’re receiving this email because you subscribed to NasiStore weekly updates.</p>
+        <p>Need help? Contact us at <a href="mailto:support@nasistore.com">support@nasistore.com</a></p>
+        <p>&copy; <%= new Date().getFullYear() %> Nasi Digital PVT LTD</p>
+        <p>
+          Want to stop receiving these?  
+          <a href="https://www.nasistore.com/unsubscribe?email=<%= encodeURIComponent(email) %>">
+            Unsubscribe
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </body>
+</html>
