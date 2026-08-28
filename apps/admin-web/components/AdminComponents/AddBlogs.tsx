@@ -81,8 +81,8 @@ const AddBlogs = () => {
         </div>
         <div
           className={`w-[320px] lg:w-5/12  lg:relative lg:right-0 fixed ${
-            show ? "-right-0" : "right-[340px]"
-          } z-[9999] top-0 transition-all duration-500`}
+            show ? "right-0" : "right-85"
+          } z-9999 top-0 transition-all duration-500`}
         >
           <div className="w-full pl-5">
             <div className="bg-[#283046] h-screen lg:h-auto px-3 py-2 lg:rounded-md text-[#d0d2d6]">
@@ -115,7 +115,7 @@ const AddBlogs = () => {
                 </div>
                 <div>
                   <Label
-                    className="flex justify-center items-center flex-col h-[238px] cursor-pointer border border-dashed hover:border-indigo-500 w-full border-[#d0d2d6]"
+                    className="flex justify-center items-center flex-col h-59.5 cursor-pointer border border-dashed hover:border-indigo-500 w-full border-[#d0d2d6]"
                     htmlFor="image"
                   >
                     {imageShow ? (

@@ -84,10 +84,10 @@ const Reviews = ({ product }: { product: Product | null }) => {
         <div className="flex gap-2 flex-col py-4">
           {[5, 4, 3, 2, 1].map((rate, index) => (
             <div key={rate} className="flex items-center gap-5">
-              <div className="text-md mr-2 flex gap-1 w-[93px]">
+              <div className="text-md mr-2 flex gap-1 w-23.25">
                 <Rating size="medium" type="display" rating={rate} />
               </div>
-              <div className="w-[200px] h-[14px] bg-slate-200 relative">
+              <div className="w-50 h-3.5 bg-slate-200 relative">
                 <div
                   style={{
                     width: `${Math.floor(
@@ -97,7 +97,7 @@ const Reviews = ({ product }: { product: Product | null }) => {
                   className="h-full bg-[#EDBB0E]"
                 ></div>
               </div>
-              <p className="text-sm text-slate-600 min-w-[20px]">
+              <p className="text-sm text-slate-600 min-w-5">
                 {rating_review[index]?.sum || 0}
               </p>
             </div>

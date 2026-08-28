@@ -83,13 +83,13 @@ const Bolgs = () => {
                   <div className="flex justify-start items-center gap-4">
                     <Link
                       href={"#"}
-                      className="p-[6px] bg-yellow-500 rounded hover:shadow-lg hover:shadow-yellow-500/50"
+                      className="p-1.5 bg-yellow-500 rounded hover:shadow-lg hover:shadow-yellow-500/50"
                     >
                       <FaEdit />
                     </Link>
                     <Link
                       href={"#"}
-                      className="p-[6px] bg-red-500 rounded hover:shadow-lg hover:shadow-red-500/50"
+                      className="p-1.5 bg-red-500 rounded hover:shadow-lg hover:shadow-red-500/50"
                     >
                       <FaTrash />
                     </Link>
