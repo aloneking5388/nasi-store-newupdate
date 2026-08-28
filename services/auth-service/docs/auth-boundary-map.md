@@ -1,12 +1,14 @@
 # Auth Ownership Boundary Map
 
 Purpose
+
 - Document the current ownership of auth endpoints before any extraction work begins.
 - This file is documentation only. No runtime behavior changes are made here.
 
 ## Endpoint Ownership Map
 
 ### POST /api/auth/admin/login
+
 - Current implementation location: apps/client-web/app/api/auth/admin/login/route.ts
 - Current owner: apps/client-web
 - Future owner: services/auth-service/src/modules/auth
@@ -15,6 +17,7 @@ Purpose
 - Extraction risks: Response shape and status code must remain compatible.
 
 ### POST /api/auth/customer/login
+
 - Current implementation location: apps/client-web/app/api/auth/customer/login/route.ts
 - Current owner: services/auth-service/src/modules/auth
 - Future owner: services/auth-service/src/modules/auth
@@ -24,6 +27,7 @@ Purpose
 - Extraction risks: Must preserve token payload, cookie behavior, and response envelope.
 
 ### POST /api/auth/customer/register
+
 - Current implementation location: apps/client-web/app/api/auth/customer/register/route.ts
 - Current owner: apps/client-web
 - Future owner: services/auth-service/src/modules/auth
@@ -32,6 +36,7 @@ Purpose
 - Extraction risks: Registration side effects and referral logic must remain intact.
 
 ### POST /api/auth/customer/oauth
+
 - Current implementation location: apps/client-web/app/api/auth/customer/oauth/route.ts
 - Current owner: apps/client-web
 - Future owner: services/auth-service/src/modules/auth
@@ -40,6 +45,7 @@ Purpose
 - Extraction risks: External provider verification and profile-image behavior must remain compatible.
 
 ### POST /api/auth/seller/login
+
 - Current implementation location: apps/client-web/app/api/auth/seller/login/route.ts
 - Current owner: apps/client-web
 - Future owner: services/auth-service/src/modules/auth
@@ -48,6 +54,7 @@ Purpose
 - Extraction risks: Preserve status, cookie, and token semantics.
 
 ### POST /api/auth/seller/register
+
 - Current implementation location: apps/client-web/app/api/auth/seller/register/route.ts
 - Current owner: apps/client-web
 - Future owner: services/auth-service/src/modules/auth
@@ -56,6 +63,7 @@ Purpose
 - Extraction risks: Keep method validation/default behavior and response format stable.
 
 ### GET /api/auth/logout
+
 - Current implementation location: apps/client-web/app/api/auth/logout/route.ts
 - Current owner: apps/client-web
 - Future owner: services/auth-service/src/modules/auth

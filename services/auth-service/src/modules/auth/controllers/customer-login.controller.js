@@ -1,16 +1,16 @@
-'use strict';
+"use strict";
 
-const { loginCustomer } = require('../services/customer-login.service');
+const { loginCustomer } = require("../services/customer-login.service");
 
 function sendJson(res, statusCode, payload, cookies) {
   const body = JSON.stringify(payload);
   const headers = {
-    'Content-Type': 'application/json',
-    'Content-Length': Buffer.byteLength(body),
+    "Content-Type": "application/json",
+    "Content-Length": Buffer.byteLength(body),
   };
 
   if (cookies && cookies.length > 0) {
-    headers['Set-Cookie'] = cookies;
+    headers["Set-Cookie"] = cookies;
   }
 
   res.writeHead(statusCode, headers);
@@ -21,20 +21,20 @@ function readRequestBody(req) {
   return new Promise((resolve, reject) => {
     const chunks = [];
 
-    req.on('data', (chunk) => {
+    req.on("data", (chunk) => {
       chunks.push(chunk);
     });
 
-    req.on('end', () => {
+    req.on("end", () => {
       if (chunks.length === 0) {
-        resolve('');
+        resolve("");
         return;
       }
 
-      resolve(Buffer.concat(chunks).toString('utf8'));
+      resolve(Buffer.concat(chunks).toString("utf8"));
     });
 
-    req.on('error', reject);
+    req.on("error", reject);
   });
 }
 
@@ -45,7 +45,7 @@ async function customerLoginController(req, res) {
     const result = await loginCustomer(parsedBody);
     sendJson(res, result.statusCode, result.body, result.cookies);
   } catch (error) {
-    sendJson(res, 500, { error: 'Internal server error' }, []);
+    sendJson(res, 500, { error: "Internal server error" }, []);
   }
 }
 

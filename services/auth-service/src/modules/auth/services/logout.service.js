@@ -1,9 +1,10 @@
-'use strict';
+"use strict";
 
-const { buildClearTokenCookie } = require('../utils/cookie.service');
+const { buildClearTokenCookie } = require("../utils/cookie.service");
 
 function formatLogoutMessage(role) {
-  const normalized = typeof role === 'string' && role.trim().length > 0 ? role.trim() : 'User';
+  const normalized =
+    typeof role === "string" && role.trim().length > 0 ? role.trim() : "User";
   return `${normalized.charAt(0).toUpperCase() + normalized.slice(1)} logout successful!`;
 }
 

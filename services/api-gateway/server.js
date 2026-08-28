@@ -8,7 +8,9 @@ const isProdArg = process.argv.includes("--prod");
 const dev = !isProdArg;
 const host = process.env.HOST || "0.0.0.0";
 const port = parseInt(process.env.PORT || "3000", 10);
-const authServiceBase = (process.env.AUTH_SERVICE_URL || "http://localhost:4001").replace(/\/$/, "");
+const authServiceBase = (
+  process.env.AUTH_SERVICE_URL || "http://localhost:4001"
+).replace(/\/$/, "");
 const appDir = path.join(__dirname, "..", "..", "apps", "client-web");
 
 const app = next({ dev, webpack: true, dir: appDir });
@@ -21,7 +23,9 @@ function collectRawBody(req) {
     const chunks = [];
 
     req.on("data", (chunk) => chunks.push(chunk));
-    req.on("end", () => resolve(chunks.length > 0 ? Buffer.concat(chunks) : null));
+    req.on("end", () =>
+      resolve(chunks.length > 0 ? Buffer.concat(chunks) : null),
+    );
     req.on("error", reject);
   });
 }
@@ -67,7 +71,9 @@ function buildProxyHeaders(req, rawBody) {
 
 function shouldForwardAuth(req) {
   const reqUrl = req.url || "/";
-  return reqUrl.startsWith("/api/auth/") && req.headers[AUTH_PROXY_HEADER] !== "1";
+  return (
+    reqUrl.startsWith("/api/auth/") && req.headers[AUTH_PROXY_HEADER] !== "1"
+  );
 }
 
 async function forwardAuthRequest(req, res) {

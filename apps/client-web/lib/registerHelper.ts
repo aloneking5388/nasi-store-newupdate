@@ -13,7 +13,6 @@ export const sendRegisterSuccessEmail = async (
     return;
   }
   const resend = new Resend(apiKey);
-  // 1️⃣ Load template INSIDE function
   const templatePath = path.join(
     process.cwd(),
     "emails/templates/registration.ejs"

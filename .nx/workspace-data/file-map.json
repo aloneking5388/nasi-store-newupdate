@@ -6,80 +6,136 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "docs/task-1-backend-auth-architecture-analysis.md",
+        "hash": "5758648163753771101"
+      },
+      {
         "file": "tmp/static/styles.js",
         "hash": "7917573861220374825"
       },
       {
+        "file": "tsconfig.base.json",
+        "hash": "12734532417498165783"
+      },
+      {
         "file": "docs/contracts/customer-registration-delegation-design.md",
-        "hash": "718970551070771275"
+        "hash": "17294851378242045291"
+      },
+      {
+        "file": "docs/contracts/customer-registration-consistency-analysis.md",
+        "hash": "8415624813110334080"
+      },
+      {
+        "file": "tmp/dep-graph.html",
+        "hash": "6986935609089304540"
       },
       {
         "file": "docs/phase-1-step-2-classification-prompt.md",
-        "hash": "5009502939195771303"
-      },
-      {
-        "file": "tmp/static/environment.js",
-        "hash": "5369266582780471127"
-      },
-      {
-        "file": "docs/contracts/auth-extraction-boundary.md",
-        "hash": "11636419665893492992"
-      },
-      {
-        "file": "docs/contracts/customer-registration-ownership.md",
-        "hash": "15647856317537185994"
-      },
-      {
-        "file": "tmp/dep-graph.json",
-        "hash": "14727988010358817406"
+        "hash": "3324402181057965113"
       },
       {
         "file": "server.js",
         "hash": "15621944513865525785"
       },
       {
-        "file": "AGENTS.md",
-        "hash": "7772352574092436206"
-      },
-      {
         "file": "infra/docker/README.md",
         "hash": "6957145253980179986"
-      },
-      {
-        "file": "tooling/tsconfig/README.md",
-        "hash": "12130402391763962305"
-      },
-      {
-        "file": "tmp/static/favicon.ico",
-        "hash": "9303420814833116677"
-      },
-      {
-        "file": "classification-output.json",
-        "hash": "2811644511254555354"
-      },
-      {
-        "file": "infra/scripts/README.md",
-        "hash": "3887463190466698000"
-      },
-      {
-        "file": "package.json",
-        "hash": "1559045294300250003"
-      },
-      {
-        "file": "docs/contracts/auth-smoke-tests.md",
-        "hash": "16997525747527090658"
-      },
-      {
-        "file": "tooling/eslint-config/README.md",
-        "hash": "7403644068128097180"
       },
       {
         "file": "docs/phase-1-step-4-backend-service-grouping-prompt.md",
         "hash": "11236134804717616022"
       },
       {
+        "file": "classification-output.json",
+        "hash": "2811644511254555354"
+      },
+      {
         "file": "docs/completion-evidence-checklist.md",
-        "hash": "15034168969650722384"
+        "hash": "4306712226746592271"
+      },
+      {
+        "file": "tmp/static/main.js",
+        "hash": "14500634277701145878"
+      },
+      {
+        "file": "docs/README.md",
+        "hash": "7575361178782158023"
+      },
+      {
+        "file": "tooling/eslint-config/README.md",
+        "hash": "7403644068128097180"
+      },
+      {
+        "file": "docs/contracts/auth-smoke-tests.md",
+        "hash": "7015779495225903796"
+      },
+      {
+        "file": "docs/contracts/customer-register-extraction-boundary.md",
+        "hash": "15568490957301902013"
+      },
+      {
+        "file": "infra/scripts/README.md",
+        "hash": "3887463190466698000"
+      },
+      {
+        "file": "docs/migration/customer-registration-implementation-plan.md",
+        "hash": "13993466074853472460"
+      },
+      {
+        "file": "AGENTS.md",
+        "hash": "7772352574092436206"
+      },
+      {
+        "file": "docs/migration/customer-login-implementation-plan.md",
+        "hash": "686044092749405769"
+      },
+      {
+        "file": "docs/migration/auth-extraction-log.md",
+        "hash": "5414474197375837741"
+      },
+      {
+        "file": "package.json",
+        "hash": "1559045294300250003"
+      },
+      {
+        "file": "docs/contracts/auth-extraction-boundary.md",
+        "hash": "16598273078995474097"
+      },
+      {
+        "file": "docs/phase-1-step-5-dependency-and-coupling-risk-prompt.md",
+        "hash": "15854242374126353675"
+      },
+      {
+        "file": "docs/phase-1-step-1-discovery-prompt.md",
+        "hash": "6432282660621363324"
+      },
+      {
+        "file": "tooling/prettier-config/prettier.config.cjs",
+        "hash": "8531764174992420294"
+      },
+      {
+        "file": "docs/contracts/auth-contract.md",
+        "hash": "10376530171754498134"
+      },
+      {
+        "file": "tmp/static/environment.js",
+        "hash": "5369266582780471127"
+      },
+      {
+        "file": "tmp/static/styles.css",
+        "hash": "17891475750148883061"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3111782556843464830"
+      },
+      {
+        "file": "docs/contracts/customer-login-extraction-boundary.md",
+        "hash": "368886006289817930"
+      },
+      {
+        "file": "tooling/tsconfig/README.md",
+        "hash": "12130402391763962305"
       },
       {
         "file": ".gitignore",
@@ -87,94 +143,46 @@
       },
       {
         "file": "docs/phase-1-step-3-duplicate-shared-surface-prompt.md",
-        "hash": "8253677680400242449"
+        "hash": "968520556672843076"
       },
       {
-        "file": "docs/contracts/customer-register-extraction-boundary.md",
-        "hash": "1147457839376031439"
+        "file": "tmp/dep-graph.json",
+        "hash": "14727988010358817406"
       },
       {
-        "file": "tooling/prettier-config/prettier.config.cjs",
-        "hash": "8531764174992420294"
+        "file": "docs/contracts/customer-registration-ownership.md",
+        "hash": "9390249646925971557"
       },
       {
-        "file": "docs/phase-1-step-1-discovery-prompt.md",
-        "hash": "11989393460982852238"
-      },
-      {
-        "file": "docs/task-1-backend-auth-architecture-analysis.md",
-        "hash": "5758648163753771101"
-      },
-      {
-        "file": "docs/README.md",
-        "hash": "7575361178782158023"
-      },
-      {
-        "file": "docs/migration/customer-registration-implementation-plan.md",
-        "hash": "5950299905971505022"
-      },
-      {
-        "file": "nx.json",
-        "hash": "11996594637276870670"
+        "file": "tmp/static/favicon.ico",
+        "hash": "9303420814833116677"
       },
       {
         "file": "tmp/static/runtime.js",
         "hash": "14980783667260047515"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "12734532417498165783"
-      },
-      {
-        "file": "docs/contracts/auth-contract.md",
-        "hash": "16158920039859443754"
-      },
-      {
-        "file": "docs/contracts/customer-login-extraction-boundary.md",
-        "hash": "9474901567307656474"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "3111782556843464830"
-      },
-      {
-        "file": "tmp/static/main.js",
-        "hash": "14500634277701145878"
-      },
-      {
-        "file": "docs/migration/customer-login-implementation-plan.md",
-        "hash": "15413855705396607074"
-      },
-      {
-        "file": "docs/migration/auth-extraction-log.md",
-        "hash": "15627636181658577158"
-      },
-      {
-        "file": "docs/phase-1-step-5-dependency-and-coupling-risk-prompt.md",
-        "hash": "15854242374126353675"
+        "file": "nx.json",
+        "hash": "11996594637276870670"
       },
       {
         "file": "infra/nginx/README.md",
         "hash": "12191807404288512612"
-      },
-      {
-        "file": "tmp/static/styles.css",
-        "hash": "17891475750148883061"
-      },
-      {
-        "file": "tmp/dep-graph.html",
-        "hash": "6986935609089304540"
       }
     ],
     "projectFileMap": {
-      "@nasi/theme": [
+      "payment-service": [
         {
-          "file": "packages/theme/package.json",
-          "hash": "943765198530121122"
+          "file": "services/payment-service/README.md",
+          "hash": "12916896359414980978"
         },
         {
-          "file": "packages/theme/src/index.ts",
-          "hash": "1969368914539341161"
+          "file": "services/payment-service/project.json",
+          "hash": "8256753221378311974"
+        },
+        {
+          "file": "services/payment-service/src/index.js",
+          "hash": "15067812105522785354"
         }
       ],
       "customer-web": [
@@ -447,46 +455,224 @@
           "hash": "11675970760861507256"
         }
       ],
-      "search-service": [
+      "notification-service": [
         {
-          "file": "services/search-service/README.md",
-          "hash": "14843760826966895777"
+          "file": "services/notification-service/README.md",
+          "hash": "5788837684088858187"
         },
         {
-          "file": "services/search-service/project.json",
-          "hash": "6925771450320001483"
+          "file": "services/notification-service/project.json",
+          "hash": "10612480949495915537"
         },
         {
-          "file": "services/search-service/src/index.js",
-          "hash": "19040157579571390"
+          "file": "services/notification-service/src/index.js",
+          "hash": "14664774753081640201"
         }
       ],
-      "order-service": [
+      "seller-service": [
         {
-          "file": "services/order-service/README.md",
-          "hash": "8420648979910338479"
+          "file": "services/seller-service/README.md",
+          "hash": "14278635596818360892"
         },
         {
-          "file": "services/order-service/project.json",
-          "hash": "10421182359179375794"
+          "file": "services/seller-service/project.json",
+          "hash": "6480091010471232869"
         },
         {
-          "file": "services/order-service/src/index.js",
-          "hash": "6037013285491909956"
+          "file": "services/seller-service/src/index.js",
+          "hash": "15349341010626819858"
         }
       ],
-      "currency-service": [
+      "product-service": [
         {
-          "file": "services/currency-service/README.md",
-          "hash": "610477786785962417"
+          "file": "services/product-service/README.md",
+          "hash": "6792065350543368074"
         },
         {
-          "file": "services/currency-service/project.json",
-          "hash": "16869729615455562030"
+          "file": "services/product-service/project.json",
+          "hash": "3643799327629956617"
         },
         {
-          "file": "services/currency-service/src/index.js",
-          "hash": "17176944888419792206"
+          "file": "services/product-service/src/index.js",
+          "hash": "18310671372240542333"
+        }
+      ],
+      "user-service": [
+        {
+          "file": "services/user-service/README.md",
+          "hash": "14222478697771554276"
+        },
+        {
+          "file": "services/user-service/project.json",
+          "hash": "11356085632985883210"
+        },
+        {
+          "file": "services/user-service/src/index.js",
+          "hash": "2388550352632608793"
+        }
+      ],
+      "@nasi/utils": [
+        {
+          "file": "packages/utils/package.json",
+          "hash": "17733728999922769938"
+        },
+        {
+          "file": "packages/utils/src/formatPrice.ts",
+          "hash": "8027679945654854672"
+        },
+        {
+          "file": "packages/utils/src/generateSlug.ts",
+          "hash": "1189867397876709703"
+        },
+        {
+          "file": "packages/utils/src/helpers.ts",
+          "hash": "5129692181847887434"
+        },
+        {
+          "file": "packages/utils/src/index.ts",
+          "hash": "1846569911304718323"
+        }
+      ],
+      "admin-web": [
+        {
+          "file": "apps/admin-web/app/(auth)/admin/login/page.tsx",
+          "hash": "18282813716581187958"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/blogs/page.tsx",
+          "hash": "17810646877850954342"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/category/page.tsx",
+          "hash": "12346110560802434082"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/chat-sellers/page.tsx",
+          "hash": "8612131427150155663"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/customers/[Id]/page.tsx",
+          "hash": "15046798560645810881"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/customers/page.tsx",
+          "hash": "10345043546019227632"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/orders/[id]/page.tsx",
+          "hash": "10319518928698592292"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/orders/page.tsx",
+          "hash": "13581550569621188029"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/page.tsx",
+          "hash": "9735233030421483371"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/payment-request/page.tsx",
+          "hash": "6727213999009757196"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/sellers/[sellerId]/page.tsx",
+          "hash": "6894019680680637967"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/admin/sellers/page.tsx",
+          "hash": "12043559906940121333"
+        },
+        {
+          "file": "apps/admin-web/app/(dashboard)/layout.tsx",
+          "hash": "16311649296493705601"
+        },
+        {
+          "file": "apps/admin-web/app/layout.tsx",
+          "hash": "83204822362610169"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/AddBlogs.tsx",
+          "hash": "2423389263186009984"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/AddCategoris.tsx",
+          "hash": "16757519162201168900"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/AdminLoginForm.tsx",
+          "hash": "15500199965362175311"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/Bolgs.tsx",
+          "hash": "15840390897900949532"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/Categorys.tsx",
+          "hash": "16141869697895740903"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/EditCutomer.tsx",
+          "hash": "6470542384503461356"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/EditSeller.tsx",
+          "hash": "10242831805942559802"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/PaymentRequestManager.tsx",
+          "hash": "10339514107215600615"
+        },
+        {
+          "file": "apps/admin-web/components/AdminComponents/SellerPaymentsOverview.tsx",
+          "hash": "6036586263713544625"
+        },
+        {
+          "file": "apps/admin-web/next.config.ts",
+          "hash": "17777597417991647135"
+        },
+        {
+          "file": "apps/admin-web/postcss.config.mjs",
+          "hash": "512361679910886401"
+        },
+        {
+          "file": "apps/admin-web/project.json",
+          "hash": "3694393380004558785"
+        },
+        {
+          "file": "apps/admin-web/tsconfig.json",
+          "hash": "10839150922706343075"
+        }
+      ],
+      "@nasi/api-sdk": [
+        {
+          "file": "packages/api-sdk/package.json",
+          "hash": "16270873122647099477"
+        },
+        {
+          "file": "packages/api-sdk/src/client.ts",
+          "hash": "9995085700124152122"
+        },
+        {
+          "file": "packages/api-sdk/src/index.ts",
+          "hash": "18092527046891327033"
+        }
+      ],
+      "api-gateway": [
+        {
+          "file": "services/api-gateway/README.md",
+          "hash": "16949652813278345072"
+        },
+        {
+          "file": "services/api-gateway/project.json",
+          "hash": "1089178835326439494"
+        },
+        {
+          "file": "services/api-gateway/server.js",
+          "hash": "418946197220671771"
+        },
+        {
+          "file": "services/api-gateway/src/index.js",
+          "hash": "16748634420858278807"
         }
       ],
       "review-service": [
@@ -503,66 +689,6 @@
           "hash": "10278375979166538316"
         }
       ],
-      "@nasi/hooks": [
-        {
-          "file": "packages/hooks/package.json",
-          "hash": "1469449981587872470"
-        },
-        {
-          "file": "packages/hooks/src/currency.tsx",
-          "hash": "3578498569170516868"
-        },
-        {
-          "file": "packages/hooks/src/index.ts",
-          "hash": "3567081711346501771"
-        }
-      ],
-      "api-gateway": [
-        {
-          "file": "services/api-gateway/README.md",
-          "hash": "16949652813278345072"
-        },
-        {
-          "file": "services/api-gateway/project.json",
-          "hash": "1089178835326439494"
-        },
-        {
-          "file": "services/api-gateway/server.js",
-          "hash": "3681760253085765166"
-        },
-        {
-          "file": "services/api-gateway/src/index.js",
-          "hash": "16748634420858278807"
-        }
-      ],
-      "chat-service": [
-        {
-          "file": "services/chat-service/README.md",
-          "hash": "16253368425408558592"
-        },
-        {
-          "file": "services/chat-service/project.json",
-          "hash": "17430620179031169890"
-        },
-        {
-          "file": "services/chat-service/src/index.js",
-          "hash": "2957860081984584296"
-        }
-      ],
-      "payment-service": [
-        {
-          "file": "services/payment-service/README.md",
-          "hash": "12916896359414980978"
-        },
-        {
-          "file": "services/payment-service/project.json",
-          "hash": "8256753221378311974"
-        },
-        {
-          "file": "services/payment-service/src/index.js",
-          "hash": "15067812105522785354"
-        }
-      ],
       "upload-service": [
         {
           "file": "services/upload-service/README.md",
@@ -575,6 +701,66 @@
         {
           "file": "services/upload-service/src/index.js",
           "hash": "16791877264542492304"
+        }
+      ],
+      "@nasi/theme": [
+        {
+          "file": "packages/theme/package.json",
+          "hash": "943765198530121122"
+        },
+        {
+          "file": "packages/theme/src/index.ts",
+          "hash": "1969368914539341161"
+        }
+      ],
+      "@nasi/ui": [
+        {
+          "file": "packages/ui/package.json",
+          "hash": "5246860476232761176"
+        },
+        {
+          "file": "packages/ui/src/StarRating.tsx",
+          "hash": "6678671179182333126"
+        },
+        {
+          "file": "packages/ui/src/button.tsx",
+          "hash": "8237533245726772997"
+        },
+        {
+          "file": "packages/ui/src/card.tsx",
+          "hash": "3776967686581303221"
+        },
+        {
+          "file": "packages/ui/src/carousel.tsx",
+          "hash": "7349051393472651190"
+        },
+        {
+          "file": "packages/ui/src/index.ts",
+          "hash": "9289965202447492490"
+        },
+        {
+          "file": "packages/ui/src/input.tsx",
+          "hash": "14650846850398797873"
+        },
+        {
+          "file": "packages/ui/src/label.tsx",
+          "hash": "17060556787301411006"
+        },
+        {
+          "file": "packages/ui/src/select.tsx",
+          "hash": "16416385498063367678"
+        },
+        {
+          "file": "packages/ui/src/skeleton.tsx",
+          "hash": "3000591494574702187"
+        },
+        {
+          "file": "packages/ui/src/table.tsx",
+          "hash": "11918550134086135915"
+        },
+        {
+          "file": "packages/ui/src/textarea.tsx",
+          "hash": "18065943275049648836"
         }
       ],
       "wallet-service": [
@@ -591,257 +777,155 @@
           "hash": "14901066879683226209"
         }
       ],
-      "@nasi/types": [
+      "currency-service": [
         {
-          "file": "packages/types/package.json",
-          "hash": "12119808527637544815"
+          "file": "services/currency-service/README.md",
+          "hash": "610477786785962417"
         },
         {
-          "file": "packages/types/src/admin.d.ts",
-          "hash": "9328144906691340013"
+          "file": "services/currency-service/project.json",
+          "hash": "16869729615455562030"
         },
         {
-          "file": "packages/types/src/auth.d.ts",
-          "hash": "10182224711820769985"
+          "file": "services/currency-service/src/index.js",
+          "hash": "17176944888419792206"
+        }
+      ],
+      "ai-service": [
+        {
+          "file": "services/ai-service/README.md",
+          "hash": "5748004004318259580"
         },
         {
-          "file": "packages/types/src/banner.d.ts",
-          "hash": "12826093628870609885"
+          "file": "services/ai-service/project.json",
+          "hash": "14561467028037128184"
         },
         {
-          "file": "packages/types/src/cart.d.ts",
-          "hash": "3712563960505178965"
+          "file": "services/ai-service/src/index.js",
+          "hash": "174423253254157227"
+        }
+      ],
+      "category-service": [
+        {
+          "file": "services/category-service/README.md",
+          "hash": "2382582324496559520"
         },
         {
-          "file": "packages/types/src/categoris.d.ts",
-          "hash": "1145695819661609577"
+          "file": "services/category-service/project.json",
+          "hash": "16851486527464782599"
         },
         {
-          "file": "packages/types/src/dashboard.d.ts",
-          "hash": "1114148245400122505"
+          "file": "services/category-service/src/index.js",
+          "hash": "11574553018830714165"
+        }
+      ],
+      "auth-service": [
+        {
+          "file": "services/auth-service/README.md",
+          "hash": "496636286348207290"
         },
         {
-          "file": "packages/types/src/home.d.ts",
-          "hash": "14657611549142393638"
+          "file": "services/auth-service/docs/auth-boundary-map.md",
+          "hash": "3312720762902205280"
         },
         {
-          "file": "packages/types/src/homeDashboard.d.ts",
-          "hash": "10735354757201166539"
+          "file": "services/auth-service/project.json",
+          "hash": "904596958171305801"
         },
         {
-          "file": "packages/types/src/index.d.ts",
-          "hash": "1235725701276430455"
+          "file": "services/auth-service/src/index.js",
+          "hash": "10699375925150332397"
         },
         {
-          "file": "packages/types/src/newsletter.d.ts",
-          "hash": "6324679255932727914"
+          "file": "services/auth-service/src/modules/auth/controllers/customer-login.controller.js",
+          "hash": "7669926897731285675"
         },
         {
-          "file": "packages/types/src/order.d.ts",
-          "hash": "8230594872046689200"
+          "file": "services/auth-service/src/modules/auth/controllers/logout.controller.js",
+          "hash": "18095437384438591329"
         },
         {
-          "file": "packages/types/src/product.d.ts",
-          "hash": "4813541333015444671"
+          "file": "services/auth-service/src/modules/auth/index.ts",
+          "hash": "9011363637044483924"
         },
         {
-          "file": "packages/types/src/review.d.ts",
-          "hash": "16968254823792621126"
+          "file": "services/auth-service/src/modules/auth/services/customer-login.service.js",
+          "hash": "6299413454552245168"
         },
         {
-          "file": "packages/types/src/socket.d.ts",
-          "hash": "9019103907396043637"
+          "file": "services/auth-service/src/modules/auth/services/logout.service.js",
+          "hash": "11258329173686237659"
         },
         {
-          "file": "packages/types/src/swiper.d.ts",
-          "hash": "8198774864672487188"
+          "file": "services/auth-service/src/modules/auth/utils/cookie.service.js",
+          "hash": "615931668181126832"
         },
         {
-          "file": "packages/types/src/wallet.d.ts",
-          "hash": "9280802233203542955"
+          "file": "services/auth-service/src/modules/auth/utils/jwt.service.js",
+          "hash": "14412095794561308077"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/utils/password.service.js",
+          "hash": "5942680124236438505"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/utils/response.factory.js",
+          "hash": "5548373422008588200"
+        },
+        {
+          "file": "services/auth-service/src/modules/auth/utils/user.mapper.js",
+          "hash": "17892232246203217957"
+        },
+        {
+          "file": "services/auth-service/tests/customer-login-smoke.js",
+          "hash": "7160157036037861602"
+        },
+        {
+          "file": "services/auth-service/tests/utils/cookie.service.test.js",
+          "hash": "12526987817324133952"
+        },
+        {
+          "file": "services/auth-service/tests/utils/jwt.service.test.js",
+          "hash": "5877983826500747564"
+        },
+        {
+          "file": "services/auth-service/tests/utils/password.service.test.js",
+          "hash": "12229246335691602160"
+        },
+        {
+          "file": "services/auth-service/tests/utils/response.factory.test.js",
+          "hash": "6188210796553270987"
+        }
+      ],
+      "order-service": [
+        {
+          "file": "services/order-service/README.md",
+          "hash": "8420648979910338479"
+        },
+        {
+          "file": "services/order-service/project.json",
+          "hash": "10421182359179375794"
+        },
+        {
+          "file": "services/order-service/src/index.js",
+          "hash": "6037013285491909956"
+        }
+      ],
+      "search-service": [
+        {
+          "file": "services/search-service/README.md",
+          "hash": "14843760826966895777"
+        },
+        {
+          "file": "services/search-service/project.json",
+          "hash": "6925771450320001483"
+        },
+        {
+          "file": "services/search-service/src/index.js",
+          "hash": "19040157579571390"
         }
       ],
       "client-web": [
-        {
-          "file": "apps/client-web/.next/dev/build-manifest.json",
-          "hash": "11279735015644798282"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/.rscinfo",
-          "hash": "10346854471429558215"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/next-devtools-config.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/client-development/0.pack.gz",
-          "hash": "12754305540236462647"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/client-development/1.pack.gz",
-          "hash": "2083550901192558528"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/client-development/2.pack.gz",
-          "hash": "12856902028422375406"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/client-development/3.pack.gz",
-          "hash": "9959047299315491295"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/client-development/4.pack.gz",
-          "hash": "6856080609951755729"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/client-development/5.pack.gz",
-          "hash": "6262223762401106303"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/client-development/index.pack.gz",
-          "hash": "11599892790998287187"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/client-development/index.pack.gz.old",
-          "hash": "18049095829873496368"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/0.pack.gz",
-          "hash": "1386144384457556307"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/1.pack.gz",
-          "hash": "12113401059622904050"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/2.pack.gz",
-          "hash": "15803322004032312094"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/3.pack.gz",
-          "hash": "13745891047205275144"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/4.pack.gz",
-          "hash": "11254385307063537011"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/5.pack.gz",
-          "hash": "7916906140427345209"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/6.pack.gz",
-          "hash": "7205416332202634360"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/7.pack.gz",
-          "hash": "8777873875296713155"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/8.pack.gz",
-          "hash": "17508417872985731616"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/9.pack.gz",
-          "hash": "12526439508948323311"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/index.pack.gz",
-          "hash": "1471344327433264650"
-        },
-        {
-          "file": "apps/client-web/.next/dev/cache/webpack/server-development/index.pack.gz.old",
-          "hash": "18108141564056597345"
-        },
-        {
-          "file": "apps/client-web/.next/dev/package.json",
-          "hash": "11338307439248427064"
-        },
-        {
-          "file": "apps/client-web/.next/dev/prerender-manifest.json",
-          "hash": "4995943291980517325"
-        },
-        {
-          "file": "apps/client-web/.next/dev/react-loadable-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "apps/client-web/.next/dev/routes-manifest.json",
-          "hash": "8631896564026539507"
-        },
-        {
-          "file": "apps/client-web/.next/dev/server/app-paths-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "apps/client-web/.next/dev/server/interception-route-rewrite-manifest.js",
-          "hash": "10484309360224763022"
-        },
-        {
-          "file": "apps/client-web/.next/dev/server/middleware-build-manifest.js",
-          "hash": "2151161900599725110"
-        },
-        {
-          "file": "apps/client-web/.next/dev/server/middleware-manifest.json",
-          "hash": "9889576824779923310"
-        },
-        {
-          "file": "apps/client-web/.next/dev/server/middleware-react-loadable-manifest.js",
-          "hash": "9185069726031651908"
-        },
-        {
-          "file": "apps/client-web/.next/dev/server/next-font-manifest.js",
-          "hash": "16541577805185552134"
-        },
-        {
-          "file": "apps/client-web/.next/dev/server/next-font-manifest.json",
-          "hash": "11891788324563068681"
-        },
-        {
-          "file": "apps/client-web/.next/dev/server/pages-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "apps/client-web/.next/dev/server/server-reference-manifest.js",
-          "hash": "13062913855343812063"
-        },
-        {
-          "file": "apps/client-web/.next/dev/server/server-reference-manifest.json",
-          "hash": "10677758001107191297"
-        },
-        {
-          "file": "apps/client-web/.next/dev/static/chunks/polyfills.js",
-          "hash": "8152964857117933876"
-        },
-        {
-          "file": "apps/client-web/.next/dev/static/development/_buildManifest.js",
-          "hash": "13063724784290855366"
-        },
-        {
-          "file": "apps/client-web/.next/dev/static/development/_ssgManifest.js",
-          "hash": "17018243955171961484"
-        },
-        {
-          "file": "apps/client-web/.next/dev/trace",
-          "hash": "5749337649840472338"
-        },
-        {
-          "file": "apps/client-web/.next/dev/types/cache-life.d.ts",
-          "hash": "9184345898968772493"
-        },
-        {
-          "file": "apps/client-web/.next/dev/types/package.json",
-          "hash": "6094546126370684104"
-        },
-        {
-          "file": "apps/client-web/.next/dev/types/routes.d.ts",
-          "hash": "10538667371017548709"
-        },
-        {
-          "file": "apps/client-web/.next/dev/types/validator.ts",
-          "hash": "15468579078734689422"
-        },
         {
           "file": "apps/client-web/README.md",
           "hash": "8324130287701028964"
@@ -1004,7 +1088,7 @@
         },
         {
           "file": "apps/client-web/app/api/auth/customer/register/route.ts",
-          "hash": "18273828210581433580"
+          "hash": "12225143995425822898"
         },
         {
           "file": "apps/client-web/app/api/auth/logout/route.ts",
@@ -1117,14 +1201,6 @@
         {
           "file": "apps/client-web/app/api/home/route.ts",
           "hash": "7013140230824782317"
-        },
-        {
-          "file": "apps/client-web/app/api/internal/customer-registration/enroll/route.ts",
-          "hash": "6608336269286588837"
-        },
-        {
-          "file": "apps/client-web/app/api/internal/customer-registration/send-email/route.ts",
-          "hash": "14110214877738608339"
         },
         {
           "file": "apps/client-web/app/api/momo/route.ts",
@@ -1540,7 +1616,7 @@
         },
         {
           "file": "apps/client-web/lib/registerHelper.ts",
-          "hash": "16529776466479065289"
+          "hash": "1533261929560271597"
         },
         {
           "file": "apps/client-web/lib/utils.ts",
@@ -1879,170 +1955,98 @@
           "hash": "1922264434704463658"
         }
       ],
-      "wishlist-service": [
+      "@nasi/types": [
         {
-          "file": "services/wishlist-service/README.md",
-          "hash": "8899228549013060233"
+          "file": "packages/types/package.json",
+          "hash": "12119808527637544815"
         },
         {
-          "file": "services/wishlist-service/project.json",
-          "hash": "6955238056750696270"
+          "file": "packages/types/src/admin.d.ts",
+          "hash": "9328144906691340013"
         },
         {
-          "file": "services/wishlist-service/src/index.js",
-          "hash": "6603497484245205853"
+          "file": "packages/types/src/auth.d.ts",
+          "hash": "10182224711820769985"
+        },
+        {
+          "file": "packages/types/src/banner.d.ts",
+          "hash": "12826093628870609885"
+        },
+        {
+          "file": "packages/types/src/cart.d.ts",
+          "hash": "3712563960505178965"
+        },
+        {
+          "file": "packages/types/src/categoris.d.ts",
+          "hash": "1145695819661609577"
+        },
+        {
+          "file": "packages/types/src/dashboard.d.ts",
+          "hash": "1114148245400122505"
+        },
+        {
+          "file": "packages/types/src/home.d.ts",
+          "hash": "14657611549142393638"
+        },
+        {
+          "file": "packages/types/src/homeDashboard.d.ts",
+          "hash": "10735354757201166539"
+        },
+        {
+          "file": "packages/types/src/index.d.ts",
+          "hash": "1235725701276430455"
+        },
+        {
+          "file": "packages/types/src/newsletter.d.ts",
+          "hash": "6324679255932727914"
+        },
+        {
+          "file": "packages/types/src/order.d.ts",
+          "hash": "8230594872046689200"
+        },
+        {
+          "file": "packages/types/src/product.d.ts",
+          "hash": "4813541333015444671"
+        },
+        {
+          "file": "packages/types/src/review.d.ts",
+          "hash": "16968254823792621126"
+        },
+        {
+          "file": "packages/types/src/socket.d.ts",
+          "hash": "9019103907396043637"
+        },
+        {
+          "file": "packages/types/src/swiper.d.ts",
+          "hash": "8198774864672487188"
+        },
+        {
+          "file": "packages/types/src/wallet.d.ts",
+          "hash": "9280802233203542955"
         }
       ],
-      "@nasi/api-sdk": [
+      "mobile-app": [
         {
-          "file": "packages/api-sdk/package.json",
-          "hash": "16270873122647099477"
+          "file": "apps/mobile-app/README.md",
+          "hash": "298173863134936989"
         },
         {
-          "file": "packages/api-sdk/src/client.ts",
-          "hash": "9995085700124152122"
-        },
-        {
-          "file": "packages/api-sdk/src/index.ts",
-          "hash": "18092527046891327033"
+          "file": "apps/mobile-app/project.json",
+          "hash": "2190717719177376058"
         }
       ],
-      "notification-service": [
+      "inventory-service": [
         {
-          "file": "services/notification-service/README.md",
-          "hash": "5788837684088858187"
+          "file": "services/inventory-service/README.md",
+          "hash": "7479502284425036156"
         },
         {
-          "file": "services/notification-service/project.json",
-          "hash": "10612480949495915537"
+          "file": "services/inventory-service/project.json",
+          "hash": "12258263018013997951"
         },
         {
-          "file": "services/notification-service/src/index.js",
-          "hash": "14664774753081640201"
-        }
-      ],
-      "seller-service": [
-        {
-          "file": "services/seller-service/README.md",
-          "hash": "14278635596818360892"
-        },
-        {
-          "file": "services/seller-service/project.json",
-          "hash": "6480091010471232869"
-        },
-        {
-          "file": "services/seller-service/src/index.js",
-          "hash": "15349341010626819858"
-        }
-      ],
-      "admin-web": [
-        {
-          "file": "apps/admin-web/app/(auth)/admin/login/page.tsx",
-          "hash": "18282813716581187958"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/admin/blogs/page.tsx",
-          "hash": "17810646877850954342"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/admin/category/page.tsx",
-          "hash": "12346110560802434082"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/admin/chat-sellers/page.tsx",
-          "hash": "8612131427150155663"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/admin/customers/[Id]/page.tsx",
-          "hash": "15046798560645810881"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/admin/customers/page.tsx",
-          "hash": "10345043546019227632"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/admin/orders/[id]/page.tsx",
-          "hash": "10319518928698592292"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/admin/orders/page.tsx",
-          "hash": "13581550569621188029"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/admin/page.tsx",
-          "hash": "9735233030421483371"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/admin/payment-request/page.tsx",
-          "hash": "6727213999009757196"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/admin/sellers/[sellerId]/page.tsx",
-          "hash": "6894019680680637967"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/admin/sellers/page.tsx",
-          "hash": "12043559906940121333"
-        },
-        {
-          "file": "apps/admin-web/app/(dashboard)/layout.tsx",
-          "hash": "16311649296493705601"
-        },
-        {
-          "file": "apps/admin-web/app/layout.tsx",
-          "hash": "83204822362610169"
-        },
-        {
-          "file": "apps/admin-web/components/AdminComponents/AddBlogs.tsx",
-          "hash": "2423389263186009984"
-        },
-        {
-          "file": "apps/admin-web/components/AdminComponents/AddCategoris.tsx",
-          "hash": "16757519162201168900"
-        },
-        {
-          "file": "apps/admin-web/components/AdminComponents/AdminLoginForm.tsx",
-          "hash": "15500199965362175311"
-        },
-        {
-          "file": "apps/admin-web/components/AdminComponents/Bolgs.tsx",
-          "hash": "15840390897900949532"
-        },
-        {
-          "file": "apps/admin-web/components/AdminComponents/Categorys.tsx",
-          "hash": "16141869697895740903"
-        },
-        {
-          "file": "apps/admin-web/components/AdminComponents/EditCutomer.tsx",
-          "hash": "6470542384503461356"
-        },
-        {
-          "file": "apps/admin-web/components/AdminComponents/EditSeller.tsx",
-          "hash": "10242831805942559802"
-        },
-        {
-          "file": "apps/admin-web/components/AdminComponents/PaymentRequestManager.tsx",
-          "hash": "10339514107215600615"
-        },
-        {
-          "file": "apps/admin-web/components/AdminComponents/SellerPaymentsOverview.tsx",
-          "hash": "6036586263713544625"
-        },
-        {
-          "file": "apps/admin-web/next.config.ts",
-          "hash": "17777597417991647135"
-        },
-        {
-          "file": "apps/admin-web/postcss.config.mjs",
-          "hash": "512361679910886401"
-        },
-        {
-          "file": "apps/admin-web/project.json",
-          "hash": "3694393380004558785"
-        },
-        {
-          "file": "apps/admin-web/tsconfig.json",
-          "hash": "10839150922706343075"
+          "file": "services/inventory-service/src/index.js",
+          "hash": "9123265255567643215"
         }
       ],
       "seller-web": [
@@ -2727,32 +2731,32 @@
           "hash": "17637851509329136714"
         }
       ],
-      "cart-service": [
+      "chat-service": [
         {
-          "file": "services/cart-service/README.md",
-          "hash": "1951394091235647794"
+          "file": "services/chat-service/README.md",
+          "hash": "16253368425408558592"
         },
         {
-          "file": "services/cart-service/project.json",
-          "hash": "10751275418909137891"
+          "file": "services/chat-service/project.json",
+          "hash": "17430620179031169890"
         },
         {
-          "file": "services/cart-service/src/index.js",
-          "hash": "15432217361463814403"
+          "file": "services/chat-service/src/index.js",
+          "hash": "2957860081984584296"
         }
       ],
-      "@nasi/validation": [
+      "@nasi/hooks": [
         {
-          "file": "packages/validation/package.json",
-          "hash": "3766106768436442797"
+          "file": "packages/hooks/package.json",
+          "hash": "1469449981587872470"
         },
         {
-          "file": "packages/validation/src/index.ts",
-          "hash": "15820885078571426481"
+          "file": "packages/hooks/src/currency.tsx",
+          "hash": "3578498569170516868"
         },
         {
-          "file": "packages/validation/src/subscription.ts",
-          "hash": "7149696971004494013"
+          "file": "packages/hooks/src/index.ts",
+          "hash": "3567081711346501771"
         }
       ],
       "shipping-service": [
@@ -2769,120 +2773,46 @@
           "hash": "12389144019118554780"
         }
       ],
-      "@nasi/ui": [
+      "cart-service": [
         {
-          "file": "packages/ui/package.json",
-          "hash": "5246860476232761176"
+          "file": "services/cart-service/README.md",
+          "hash": "1951394091235647794"
         },
         {
-          "file": "packages/ui/src/StarRating.tsx",
-          "hash": "6678671179182333126"
+          "file": "services/cart-service/project.json",
+          "hash": "10751275418909137891"
         },
         {
-          "file": "packages/ui/src/button.tsx",
-          "hash": "8237533245726772997"
-        },
-        {
-          "file": "packages/ui/src/card.tsx",
-          "hash": "3776967686581303221"
-        },
-        {
-          "file": "packages/ui/src/carousel.tsx",
-          "hash": "7349051393472651190"
-        },
-        {
-          "file": "packages/ui/src/index.ts",
-          "hash": "9289965202447492490"
-        },
-        {
-          "file": "packages/ui/src/input.tsx",
-          "hash": "14650846850398797873"
-        },
-        {
-          "file": "packages/ui/src/label.tsx",
-          "hash": "17060556787301411006"
-        },
-        {
-          "file": "packages/ui/src/select.tsx",
-          "hash": "16416385498063367678"
-        },
-        {
-          "file": "packages/ui/src/skeleton.tsx",
-          "hash": "3000591494574702187"
-        },
-        {
-          "file": "packages/ui/src/table.tsx",
-          "hash": "11918550134086135915"
-        },
-        {
-          "file": "packages/ui/src/textarea.tsx",
-          "hash": "18065943275049648836"
+          "file": "services/cart-service/src/index.js",
+          "hash": "15432217361463814403"
         }
       ],
-      "mobile-app": [
+      "wishlist-service": [
         {
-          "file": "apps/mobile-app/README.md",
-          "hash": "298173863134936989"
+          "file": "services/wishlist-service/README.md",
+          "hash": "8899228549013060233"
         },
         {
-          "file": "apps/mobile-app/project.json",
-          "hash": "2190717719177376058"
+          "file": "services/wishlist-service/project.json",
+          "hash": "6955238056750696270"
+        },
+        {
+          "file": "services/wishlist-service/src/index.js",
+          "hash": "6603497484245205853"
         }
       ],
-      "coupon-service": [
+      "@nasi/validation": [
         {
-          "file": "services/coupon-service/README.md",
-          "hash": "15815115837415983799"
+          "file": "packages/validation/package.json",
+          "hash": "3766106768436442797"
         },
         {
-          "file": "services/coupon-service/project.json",
-          "hash": "5707668994299745873"
-        },
-        {
-          "file": "services/coupon-service/src/index.js",
-          "hash": "4920950250115142830"
-        }
-      ],
-      "@nasi/constants": [
-        {
-          "file": "packages/constants/package.json",
-          "hash": "12241267812396466024"
-        },
-        {
-          "file": "packages/constants/src/index.ts",
+          "file": "packages/validation/src/index.ts",
           "hash": "15820885078571426481"
         },
         {
-          "file": "packages/constants/src/subscription.ts",
-          "hash": "6096251921103801886"
-        }
-      ],
-      "ai-service": [
-        {
-          "file": "services/ai-service/README.md",
-          "hash": "5748004004318259580"
-        },
-        {
-          "file": "services/ai-service/project.json",
-          "hash": "14561467028037128184"
-        },
-        {
-          "file": "services/ai-service/src/index.js",
-          "hash": "174423253254157227"
-        }
-      ],
-      "inventory-service": [
-        {
-          "file": "services/inventory-service/README.md",
-          "hash": "7479502284425036156"
-        },
-        {
-          "file": "services/inventory-service/project.json",
-          "hash": "12258263018013997951"
-        },
-        {
-          "file": "services/inventory-service/src/index.js",
-          "hash": "9123265255567643215"
+          "file": "packages/validation/src/subscription.ts",
+          "hash": "7149696971004494013"
         }
       ],
       "analytics-service": [
@@ -2899,154 +2829,32 @@
           "hash": "17985371220742314961"
         }
       ],
-      "auth-service": [
+      "@nasi/constants": [
         {
-          "file": "services/auth-service/README.md",
-          "hash": "496636286348207290"
+          "file": "packages/constants/package.json",
+          "hash": "12241267812396466024"
         },
         {
-          "file": "services/auth-service/docs/auth-boundary-map.md",
-          "hash": "18265261024460178787"
+          "file": "packages/constants/src/index.ts",
+          "hash": "15820885078571426481"
         },
         {
-          "file": "services/auth-service/project.json",
-          "hash": "4165512217906738164"
-        },
-        {
-          "file": "services/auth-service/src/index.js",
-          "hash": "16909040596931237707"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/controllers/customer-login.controller.js",
-          "hash": "5101720974725482593"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/controllers/customer-register.controller.js",
-          "hash": "7257201438545537098"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/controllers/logout.controller.js",
-          "hash": "18095437384438591329"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/index.ts",
-          "hash": "9011363637044483924"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/services/customer-login.service.js",
-          "hash": "10868902219857939780"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/services/customer-register.service.js",
-          "hash": "4117352207814975740"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/services/logout.service.js",
-          "hash": "1322038881560721598"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/utils/cookie.service.js",
-          "hash": "13988836935213704366"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/utils/jwt.service.js",
-          "hash": "2635249235990542201"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/utils/password.service.js",
-          "hash": "14571537539322648391"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/utils/response.factory.js",
-          "hash": "8433453676254650612"
-        },
-        {
-          "file": "services/auth-service/src/modules/auth/utils/user.mapper.js",
-          "hash": "15227513111369252671"
-        },
-        {
-          "file": "services/auth-service/tests/customer-login-smoke.js",
-          "hash": "7877204762455903581"
-        },
-        {
-          "file": "services/auth-service/tests/utils/cookie.service.test.js",
-          "hash": "17981413671527160512"
-        },
-        {
-          "file": "services/auth-service/tests/utils/jwt.service.test.js",
-          "hash": "12679234803053861100"
-        },
-        {
-          "file": "services/auth-service/tests/utils/password.service.test.js",
-          "hash": "15431156485879775137"
-        },
-        {
-          "file": "services/auth-service/tests/utils/response.factory.test.js",
-          "hash": "5811984235540918974"
+          "file": "packages/constants/src/subscription.ts",
+          "hash": "6096251921103801886"
         }
       ],
-      "product-service": [
+      "coupon-service": [
         {
-          "file": "services/product-service/README.md",
-          "hash": "6792065350543368074"
+          "file": "services/coupon-service/README.md",
+          "hash": "15815115837415983799"
         },
         {
-          "file": "services/product-service/project.json",
-          "hash": "3643799327629956617"
+          "file": "services/coupon-service/project.json",
+          "hash": "5707668994299745873"
         },
         {
-          "file": "services/product-service/src/index.js",
-          "hash": "18310671372240542333"
-        }
-      ],
-      "@nasi/utils": [
-        {
-          "file": "packages/utils/package.json",
-          "hash": "17733728999922769938"
-        },
-        {
-          "file": "packages/utils/src/formatPrice.ts",
-          "hash": "8027679945654854672"
-        },
-        {
-          "file": "packages/utils/src/generateSlug.ts",
-          "hash": "1189867397876709703"
-        },
-        {
-          "file": "packages/utils/src/helpers.ts",
-          "hash": "5129692181847887434"
-        },
-        {
-          "file": "packages/utils/src/index.ts",
-          "hash": "1846569911304718323"
-        }
-      ],
-      "category-service": [
-        {
-          "file": "services/category-service/README.md",
-          "hash": "2382582324496559520"
-        },
-        {
-          "file": "services/category-service/project.json",
-          "hash": "16851486527464782599"
-        },
-        {
-          "file": "services/category-service/src/index.js",
-          "hash": "11574553018830714165"
-        }
-      ],
-      "user-service": [
-        {
-          "file": "services/user-service/README.md",
-          "hash": "14222478697771554276"
-        },
-        {
-          "file": "services/user-service/project.json",
-          "hash": "11356085632985883210"
-        },
-        {
-          "file": "services/user-service/src/index.js",
-          "hash": "2388550352632608793"
+          "file": "services/coupon-service/src/index.js",
+          "hash": "4920950250115142830"
         }
       ]
     }

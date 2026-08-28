@@ -1,8 +1,12 @@
-'use strict';
+"use strict";
 
 // statusCode defaults to 201 matching the current auth login contract
 function loginSuccess(message, userInfo, token, cookies, statusCode = 201) {
-  return { statusCode, body: { success: true, message, userInfo, token }, cookies };
+  return {
+    statusCode,
+    body: { success: true, message, userInfo, token },
+    cookies,
+  };
 }
 
 function notFound(message) {
@@ -14,7 +18,11 @@ function unauthorized(message) {
 }
 
 function serverError() {
-  return { statusCode: 500, body: { error: 'Internal server error' }, cookies: [] };
+  return {
+    statusCode: 500,
+    body: { error: "Internal server error" },
+    cookies: [],
+  };
 }
 
 module.exports = { loginSuccess, notFound, unauthorized, serverError };

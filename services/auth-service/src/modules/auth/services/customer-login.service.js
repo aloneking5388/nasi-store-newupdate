@@ -1,11 +1,16 @@
-'use strict';
+"use strict";
 
-const mongoose = require('mongoose');
-const { verifyPassword } = require('../utils/password.service');
-const { signToken } = require('../utils/jwt.service');
-const { buildSetTokenCookie } = require('../utils/cookie.service');
-const { loginSuccess, notFound, unauthorized, serverError } = require('../utils/response.factory');
-const { buildCustomerUserInfo } = require('../utils/user.mapper');
+const mongoose = require("mongoose");
+const { verifyPassword } = require("../utils/password.service");
+const { signToken } = require("../utils/jwt.service");
+const { buildSetTokenCookie } = require("../utils/cookie.service");
+const {
+  loginSuccess,
+  notFound,
+  unauthorized,
+  serverError,
+} = require("../utils/response.factory");
+const { buildCustomerUserInfo } = require("../utils/user.mapper");
 
 let connectionPromise = null;
 
@@ -28,8 +33,8 @@ async function connectDatabase() {
 }
 
 function resolveCustomerType(customer) {
-  if (customer?.customerType === 'normal') return 'normal';
-  if (customer?.customerType === 'subscription') return 'subscription';
+  if (customer?.customerType === "normal") return "normal";
+  if (customer?.customerType === "subscription") return "subscription";
 
   if (
     customer?.referredBy ||
@@ -37,10 +42,10 @@ function resolveCustomerType(customer) {
     (customer?.referralCount ?? 0) > 0 ||
     (customer?.earnings ?? 0) > 0
   ) {
-    return 'subscription';
+    return "subscription";
   }
 
-  return 'normal';
+  return "normal";
 }
 
 async function loginCustomer(credentials) {
@@ -48,13 +53,13 @@ async function loginCustomer(credentials) {
     await connectDatabase();
 
     const { email, password } = credentials ?? {};
-    const users = mongoose.connection.db.collection('users');
+    const users = mongoose.connection.db.collection("users");
     const customer = await users.findOne({ email });
 
-    if (!customer) return notFound('Customer not found');
+    if (!customer) return notFound("Customer not found");
 
     const valid = await verifyPassword(password, customer.password);
-    if (!valid) return unauthorized('Invalid credentials');
+    if (!valid) return unauthorized("Invalid credentials");
 
     const customerType = resolveCustomerType(customer);
     const token = signToken({
@@ -66,7 +71,12 @@ async function loginCustomer(credentials) {
       customerType,
     });
 
-    return loginSuccess('Customer Login successfully', buildCustomerUserInfo(customer, customerType), token, [buildSetTokenCookie(token)]);
+    return loginSuccess(
+      "Customer Login successfully",
+      buildCustomerUserInfo(customer, customerType),
+      token,
+      [buildSetTokenCookie(token)],
+    );
   } catch {
     return serverError();
   }

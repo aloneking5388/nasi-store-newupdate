@@ -1,18 +1,18 @@
 {
   "run": {
-    "command": "nx run auth-service:test",
-    "startTime": "2026-08-10T08:52:51.460Z",
-    "endTime": "2026-08-10T08:52:53.982Z",
+    "command": "nx run client-web:lint",
+    "startTime": "2026-08-11T10:45:28.479Z",
+    "endTime": "2026-08-11T10:45:48.942Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "auth-service:test",
-      "target": "test",
-      "projectName": "auth-service",
-      "hash": "12567547544049407686",
-      "startTime": "2026-08-10T08:52:51.511Z",
-      "endTime": "2026-08-10T08:52:53.890Z",
+      "taskId": "client-web:lint",
+      "target": "lint",
+      "projectName": "client-web",
+      "hash": "3220943322846024810",
+      "startTime": "2026-08-11T10:45:28.510Z",
+      "endTime": "2026-08-11T10:45:48.770Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

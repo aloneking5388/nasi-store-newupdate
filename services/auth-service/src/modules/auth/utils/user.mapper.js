@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 function buildCustomerUserInfo(user, customerType) {
   return {
@@ -32,4 +32,8 @@ function buildAdminUserInfo(admin) {
   };
 }
 
-module.exports = { buildCustomerUserInfo, buildSellerUserInfo, buildAdminUserInfo };
+module.exports = {
+  buildCustomerUserInfo,
+  buildSellerUserInfo,
+  buildAdminUserInfo,
+};

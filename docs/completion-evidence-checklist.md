@@ -19,7 +19,7 @@ Use this checklist for every migration task. A task is not complete until every 
 13. Skipped tasks.
 14. Explicit statement when no tests exist:
 
-   Tests are not implemented.
+Tests are not implemented.
 
 ## Reporting Rules
 

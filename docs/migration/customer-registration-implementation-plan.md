@@ -125,6 +125,8 @@ Before implementation starts, the implementer must confirm in the execution ledg
 Planned files to create
 1. `services/auth-service/src/modules/auth/controllers/customer-register.controller.js`
 2. `services/auth-service/src/modules/auth/services/customer-register.service.js`
+3. `apps/client-web/app/api/internal/customer-registration/enroll/route.ts`
+4. `apps/client-web/app/api/internal/customer-registration/send-email/route.ts`
 
 Planned files to modify
 1. `services/auth-service/src/index.js`
