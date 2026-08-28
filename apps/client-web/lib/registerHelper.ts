@@ -3,10 +3,7 @@ import ejs from "ejs";
 import path from "path";
 import fs from "fs/promises";
 
-export const sendRegisterSuccessEmail = async (
-  email: string,
-  name: string
-) => {
+export const sendRegisterSuccessEmail = async (email: string, name: string) => {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
     console.warn("Resend API key missing, skipping registration email.");
@@ -15,7 +12,7 @@ export const sendRegisterSuccessEmail = async (
   const resend = new Resend(apiKey);
   const templatePath = path.join(
     process.cwd(),
-    "emails/templates/registration.ejs"
+    "emails/templates/registration.ejs",
   );
 
   const template = await fs.readFile(templatePath, "utf-8");

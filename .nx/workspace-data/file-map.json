@@ -6,132 +6,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tmp/static/environment.js",
-        "hash": "5369266582780471127"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "12734532417498165783"
-      },
-      {
-        "file": "infra/docker/README.md",
-        "hash": "6957145253980179986"
-      },
-      {
-        "file": "docs/phase-1-step-4-backend-service-grouping-prompt.md",
-        "hash": "11236134804717616022"
-      },
-      {
-        "file": "docs/contracts/auth-smoke-tests.md",
-        "hash": "7015779495225903796"
-      },
-      {
-        "file": "server.js",
-        "hash": "15621944513865525785"
-      },
-      {
-        "file": "tmp/static/main.js",
-        "hash": "14500634277701145878"
-      },
-      {
-        "file": "docs/contracts/customer-login-extraction-boundary.md",
-        "hash": "368886006289817930"
-      },
-      {
-        "file": "docs/README.md",
-        "hash": "7575361178782158023"
-      },
-      {
-        "file": "docs/contracts/customer-register-extraction-boundary.md",
-        "hash": "15568490957301902013"
-      },
-      {
-        "file": "infra/scripts/README.md",
-        "hash": "3887463190466698000"
-      },
-      {
-        "file": "AGENTS.md",
-        "hash": "7772352574092436206"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "3111782556843464830"
-      },
-      {
-        "file": "docs/contracts/auth-extraction-boundary.md",
-        "hash": "16598273078995474097"
+        "file": "tmp/static/styles.js",
+        "hash": "7917573861220374825"
       },
       {
         "file": "docs/phase-1-step-1-discovery-prompt.md",
         "hash": "6432282660621363324"
       },
       {
-        "file": "tmp/static/runtime.js",
-        "hash": "14980783667260047515"
+        "file": "docs/contracts/auth-contract.md",
+        "hash": "10376530171754498134"
       },
       {
-        "file": "tmp/static/favicon.ico",
-        "hash": "9303420814833116677"
-      },
-      {
-        "file": "docs/migration/auth-extraction-log.md",
-        "hash": "5414474197375837741"
-      },
-      {
-        "file": "docs/migration/customer-registration-implementation-plan.md",
-        "hash": "13993466074853472460"
-      },
-      {
-        "file": "tmp/static/styles.js",
-        "hash": "7917573861220374825"
+        "file": "tmp/static/main.js",
+        "hash": "14500634277701145878"
       },
       {
         "file": "tooling/prettier-config/prettier.config.cjs",
         "hash": "8531764174992420294"
       },
       {
-        "file": "docs/completion-evidence-checklist.md",
-        "hash": "4306712226746592271"
-      },
-      {
-        "file": "tooling/eslint-config/README.md",
-        "hash": "7403644068128097180"
-      },
-      {
-        "file": "classification-output.json",
-        "hash": "2811644511254555354"
-      },
-      {
-        "file": "docs/contracts/auth-contract.md",
-        "hash": "10376530171754498134"
-      },
-      {
-        "file": "infra/nginx/README.md",
-        "hash": "12191807404288512612"
-      },
-      {
-        "file": "nx.json",
-        "hash": "11996594637276870670"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "3377529041528991192"
-      },
-      {
-        "file": "docs/task-1-backend-auth-architecture-analysis.md",
-        "hash": "5758648163753771101"
-      },
-      {
-        "file": "docs/contracts/customer-registration-ownership.md",
-        "hash": "9390249646925971557"
-      },
-      {
-        "file": "tmp/dep-graph.json",
-        "hash": "14727988010358817406"
-      },
-      {
-        "file": "docs/contracts/customer-registration-delegation-design.md",
-        "hash": "17294851378242045291"
+        "file": "infra/docker/README.md",
+        "hash": "6957145253980179986"
       },
       {
         "file": "docs/phase-1-step-5-dependency-and-coupling-risk-prompt.md",
@@ -142,32 +38,136 @@
         "hash": "1559045294300250003"
       },
       {
-        "file": "tmp/dep-graph.html",
-        "hash": "6986935609089304540"
+        "file": "docs/task-1-backend-auth-architecture-analysis.md",
+        "hash": "5758648163753771101"
+      },
+      {
+        "file": "docs/contracts/auth-smoke-tests.md",
+        "hash": "7015779495225903796"
       },
       {
         "file": "docs/migration/customer-login-implementation-plan.md",
         "hash": "686044092749405769"
       },
       {
+        "file": "docs/phase-1-step-4-backend-service-grouping-prompt.md",
+        "hash": "11236134804717616022"
+      },
+      {
         "file": "docs/contracts/customer-registration-consistency-analysis.md",
-        "hash": "8415624813110334080"
+        "hash": "7496364354989968798"
+      },
+      {
+        "file": "tmp/static/environment.js",
+        "hash": "5369266582780471127"
+      },
+      {
+        "file": "docs/README.md",
+        "hash": "7575361178782158023"
+      },
+      {
+        "file": "tmp/dep-graph.html",
+        "hash": "6986935609089304540"
       },
       {
         "file": "docs/phase-1-step-3-duplicate-shared-surface-prompt.md",
         "hash": "968520556672843076"
       },
       {
-        "file": "tmp/static/styles.css",
-        "hash": "17891475750148883061"
-      },
-      {
         "file": "tooling/tsconfig/README.md",
         "hash": "12130402391763962305"
       },
       {
+        "file": "docs/contracts/customer-register-extraction-boundary.md",
+        "hash": "15568490957301902013"
+      },
+      {
+        "file": "infra/nginx/README.md",
+        "hash": "12191807404288512612"
+      },
+      {
+        "file": "docs/contracts/auth-extraction-boundary.md",
+        "hash": "16598273078995474097"
+      },
+      {
+        "file": "tmp/static/runtime.js",
+        "hash": "14980783667260047515"
+      },
+      {
+        "file": "docs/completion-evidence-checklist.md",
+        "hash": "4306712226746592271"
+      },
+      {
+        "file": "docs/contracts/customer-login-extraction-boundary.md",
+        "hash": "368886006289817930"
+      },
+      {
         "file": "docs/phase-1-step-2-classification-prompt.md",
         "hash": "3324402181057965113"
+      },
+      {
+        "file": "infra/scripts/README.md",
+        "hash": "3887463190466698000"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "12734532417498165783"
+      },
+      {
+        "file": "docs/migration/customer-registration-implementation-plan.md",
+        "hash": "13993466074853472460"
+      },
+      {
+        "file": "docs/contracts/customer-registration-delegation-design.md",
+        "hash": "17294851378242045291"
+      },
+      {
+        "file": "tmp/dep-graph.json",
+        "hash": "14727988010358817406"
+      },
+      {
+        "file": "tmp/static/styles.css",
+        "hash": "17891475750148883061"
+      },
+      {
+        "file": "tmp/static/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "server.js",
+        "hash": "15621944513865525785"
+      },
+      {
+        "file": "tooling/eslint-config/README.md",
+        "hash": "7403644068128097180"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3377529041528991192"
+      },
+      {
+        "file": "AGENTS.md",
+        "hash": "7772352574092436206"
+      },
+      {
+        "file": "nx.json",
+        "hash": "11996594637276870670"
+      },
+      {
+        "file": "docs/migration/auth-extraction-log.md",
+        "hash": "5414474197375837741"
+      },
+      {
+        "file": "classification-output.json",
+        "hash": "2811644511254555354"
+      },
+      {
+        "file": "docs/contracts/customer-registration-ownership.md",
+        "hash": "9390249646925971557"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3111782556843464830"
       }
     ],
     "projectFileMap": {
@@ -908,7 +908,7 @@
         },
         {
           "file": "apps/client-web/lib/registerHelper.ts",
-          "hash": "1533261929560271597"
+          "hash": "2829676929747769114"
         },
         {
           "file": "apps/client-web/lib/utils.ts",
